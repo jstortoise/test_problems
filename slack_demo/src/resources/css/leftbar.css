@@ -1,0 +1,366 @@
+
+@font-face{font-family:appleLogo;src:local("Lucida Grande");unicode-range:U+F8FF}
+.member_image{border-radius:.2rem;background-size:100%;background-repeat:no-repeat;display:inline-block;position:relative}
+.member_image_unknown{background:#ddd}
+.member_image:focus{outline:0}
+.member_image.thumb_16{width:16px;height:16px}
+.member_image.thumb_20{width:20px;height:20px}
+.member_image.thumb_24{width:24px;height:24px}
+.member_image.thumb_28{width:28px;height:28px}
+.member_image.thumb_32{width:32px;height:32px}
+.member_image.thumb_36{width:36px;height:36px}
+.member_image.thumb_48{width:48px;height:48px}
+.member_image.thumb_56{width:56px;height:56px}
+.member_image.thumb_72{width:72px;height:72px}
+.member_image.thumb_192{width:192px;height:192px}
+.member_image.thumb_512{width:512px;height:512px}
+.member_image.thumb_24 .emoji-sizer{font-size:24px}
+.member_image.thumb_32 .emoji-sizer{font-size:32px}
+.member_image.thumb_36 .emoji-sizer{font-size:36px}
+.member_image.thumb_48 .emoji-sizer{font-size:48px}
+.member_image.thumb_72 .emoji-sizer{font-size:64px;margin:4px}
+.member_image.thumb_192 .emoji-sizer{font-size:64px;margin:64px}
+.bot_icon_default{-webkit-border-radius:36px!important;-moz-border-radius:36px!important;border-radius:36px!important}
+.slackbot_icon{color:#007a5a;float:left;margin-top:-3px;margin-left:-2px}
+.slackbot_icon:before{font-size:18px}
+.channels_list_holder ul li a:hover .slackbot_icon,.channels_list_holder ul li.active .slackbot_icon,.channels_list_holder ul li.unread .slackbot_icon{opacity:1;-moz-opacity:1;-khtml-opacity:1}
+.channels_list_holder ul li.active .slackbot_icon{color:#fff}
+.ts_icon_guest_large:before{margin:0 -9px 0 -4px;font-size:25px}
+.presence{width:9px;height:9px;margin:0 .15rem;display:inline-block;vertical-align:baseline;background:0 0;position:relative;color:#1d1c1d}
+.presence i.presence_icon{display:inline-block;font-size:20px;line-height:20px;position:absolute;top:-10px;left:-5px}
+.presence.away{opacity:.6;-moz-opacity:.6;-khtml-opacity:.6}
+.presence.active{color:#93cc93}
+h1 .presence{margin-bottom:.3rem}
+h3 .presence{margin-bottom:.1rem}
+#team_list{margin-bottom:2rem}
+.team_list_item{line-height:1.25rem;color:#1d1c1d;position:relative;clear:both;-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text;word-break:break-word;font-size:.9375rem;cursor:default;margin:0 1px 0 0;padding-top:1rem;padding-bottom:1rem;min-height:72px;border-radius:0;border-bottom:none;border-top:1px solid #ddd;width:100%}
+.team_list_item .member_name_and_title{padding-top:.375rem}
+.team_list_item .member_name_and_title .current_status{margin-left:.2rem}
+.team_list_item:last-of-type{border-bottom-color:transparent}
+#member_preview_scroller a:not(.member_name):not(.current_status_preset_option):not(.member_details_manage_link):not(.current_status_presets_edit_link),.team_list_item a:not(.member_name):not(.current_status_preset_option):not(.member_details_manage_link):not(.current_status_presets_edit_link){color:#1d1c1d}
+.team_list_item a.member_preview_link:hover,.team_list_item:hover a.member_preview_link{color:inherit}
+.team_list_item .member_details{padding:0;min-height:56px;display:flex;flex-direction:column;justify-content:center}
+.team_list_item .member_name{font-weight:900;font-size:1.125rem;color:#1d1c1d;display:inline-block;margin:0 0 .1rem}
+.team_list_item .member_meta{overflow:hidden}
+#disabled_members_tab a{color:#616061;font-size:.8rem;border:none}
+#disabled_members_tab a:hover{background:#fff;color:#0b4c8c}
+#disabled_members_tab.active a{color:#1d1c1d}
+#member_preview_scroller .team_list_item:first-child,#member_preview_scroller h5+.team_list_item,#team_list .team_list_item:first-child,#team_list h5+.team_list_item{border-top:none}
+#member_preview_scroller .member_image,#team_list .member_image{flex:none}
+#member_preview_scroller .member_details .disclosure_arrow,#team_list .member_details .disclosure_arrow{margin-left:auto;visibility:hidden;-webkit-transform:rotateX(0) scale(1);-moz-transform:rotateX(0) scale(1);-ms-transform:rotateX(0) scale(1);transform:rotateX(0) scale(1);transition:transform .1s}
+#member_preview_scroller .member_details p,#team_list .member_details p{margin-bottom:0}
+#member_preview_scroller .team_list_item.expanded .disclosure_arrow,#team_list .team_list_item.expanded .disclosure_arrow{-webkit-transform:rotateX(180deg) scale(1);-moz-transform:rotateX(180deg) scale(1);-ms-transform:rotateX(180deg) scale(1);transform:rotateX(180deg) scale(1)}
+#member_preview_scroller .team_list_item:active .disclosure_arrow,#team_list .team_list_item:active .disclosure_arrow{-webkit-transform:rotateX(0) scale(1.1);-moz-transform:rotateX(0) scale(1.1);-ms-transform:rotateX(0) scale(1.1);transform:rotateX(0) scale(1.1)}
+#member_preview_scroller .team_list_item.expanded:active .disclosure_arrow,#team_list .team_list_item.expanded:active .disclosure_arrow{-webkit-transform:rotateX(180deg) scale(1.1);-moz-transform:rotateX(180deg) scale(1.1);-ms-transform:rotateX(180deg) scale(1.1);transform:rotateX(180deg) scale(1.1)}
+#member_preview_scroller .expanded_member_details,#team_list .expanded_member_details{display:none}
+#member_preview_scroller .team_list_item.expanded .expanded_member_details,#team_list .team_list_item.expanded .expanded_member_details{display:block}
+#member_preview_scroller .member_data_table,#team_list .member_data_table{margin-bottom:0}
+#member_preview_scroller .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link),#team_list .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link){color:#1d1c1d}
+#member_preview_scroller .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link):hover,#team_list .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link):hover{color:#0b4c8c}
+#member_preview_scroller a.member_action_button,#team_list a.member_action_button{font-size:14px;border-width:1px;max-width:300px;color:#616061!important}
+#member_preview_scroller a.member_action_button:hover,#team_list a.member_action_button:hover{border-width:1px;text-decoration:none;color:#0b4c8c!important;border-color:#0b4c8c!important}
+#member_preview_scroller .team_directory_icon,#team_list .team_directory_icon{background:url(/80588/img/team_directory_icons.png) no-repeat;vertical-align:middle}
+#member_preview_scroller .team_directory_icon.message_icon,#team_list .team_directory_icon.message_icon{background-position:0 0;width:16px;height:16px}
+#member_preview_scroller .team_directory_icon.more_icon,#team_list .team_directory_icon.more_icon{background-position:0 -40px;width:16px;height:4px}
+#member_preview_scroller .member_action_button:hover .team_directory_icon.message_icon,#team_list .member_action_button:hover .team_directory_icon.message_icon{background-position:0 -20px}
+#member_preview_scroller .member_action_button:hover .team_directory_icon.more_icon,#team_list .member_action_button:hover .team_directory_icon.more_icon{background-position:0 -46px}
+#member_preview_scroller .ts_icon_shared_channels,#team_list .ts_icon_shared_channels{position:relative;top:3px}
+#member_preview_scroller .ts_icon_shared_channels:before,#team_list .ts_icon_shared_channels:before{line-height:0}
+.filter_header{background-color:#ddd;line-height:1.5rem;font-size:.9375rem;padding:0 .5rem;margin-right:.0625rem}
+#client-ui #team_list .filter_header{margin:.0625rem .0625rem 0 0}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){#member_preview_scroller .team_directory_icon,#team_list .team_directory_icon{background:url(/80588/img/team_directory_icons@2x.png) no-repeat;background-size:100%}
+}
+#client-ui #team_list .members_long_list,#member_preview_scroller .members_long_list{margin-top:.125rem}
+#client-ui #team_list .members_long_list .team_list_item,#member_preview_scroller .members_long_list .team_list_item{left:0;right:0;padding:.5625rem}
+#client-ui #team_list .team_list_item,#member_preview_scroller .team_list_item{padding:.5rem;cursor:pointer;border-bottom:1px solid #ddd;border-top:none;padding-left:12px}
+#client-ui #team_list .team_list_item .disclosure_arrow,#member_preview_scroller .team_list_item .disclosure_arrow{position:absolute;right:-8px;top:29px}
+#client-ui #team_list .team_list_item .member_name_and_title,#member_preview_scroller .team_list_item .member_name_and_title{padding-top:.375rem}
+#client-ui #team_list .team_list_item .member_name_and_title .member_title,#member_preview_scroller .team_list_item .member_name_and_title .member_title{line-height:1.25rem;margin-top:0}
+#client-ui #team_list .team_list_item.expanded,#member_preview_scroller .team_list_item.expanded{border-color:rgba(217,217,217,.5)}
+#client-ui #team_list .team_list_item:hover,#member_preview_scroller .team_list_item:hover{background:#f8f8f8;border-color:#d9d9d9}
+#client-ui #team_list .team_list_item:hover .member_details .disclosure_arrow,#member_preview_scroller .team_list_item:hover .member_details .disclosure_arrow{visibility:visible}
+#client-ui #team_list .member_details,#member_preview_scroller .member_details{padding-right:32px}
+#client-ui #team_list .member_action_button,#member_preview_scroller .member_action_button{width:48%}
+#client-ui #team_list .member_action_button+.member_action_button,#member_preview_scroller .member_action_button+.member_action_button{margin-left:.5rem}
+#client-ui #team_list .team_directory_buttons,#member_preview_scroller .team_directory_buttons{display:flex;-ms-flex-pack:justify;-webkit-box-pack:justify;-webkit-justify-content:space-between;-moz-justify-content:space-between;justify-content:space-between}
+#client-ui #team_list .member_action_button .more_icon,#member_preview_scroller .member_action_button .more_icon{-webkit-transform:translateY(-1px);-moz-transform:translateY(-1px);-ms-transform:translateY(-1px);transform:translateY(-1px)}
+#team_list_scroller{margin-top:6px}
+#client-ui #team_list{margin-left:8px}
+#client-ui #team_list .expanded_member_details{opacity:0;-webkit-transition:opacity .1s;-moz-transition:opacity .1s;transition:opacity .1s}
+#client-ui #team_list .show_extra_data .expanded_member_details{opacity:1}
+.member_details_divider.with_current_status .small_margin_top{margin-bottom:20px}
+.member_details_divider.with_current_status .small_margin_bottom{margin-top:20px}
+.current_status_status_label{position:relative;top:7px}
+#member_preview_scroller .member_data_table .current_status_cell,.statuses_container{padding:0}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container,.statuses_container .current_status_container{position:relative;left:-12px;width:calc(100% + 12px)}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container .current_status_cover,.statuses_container .current_status_container .current_status_cover{position:relative;padding:.45rem .65rem .55rem;background-clip:padding-box;min-height:36px;display:inline-block;width:100%;border:1px solid transparent;cursor:pointer;border-radius:4px}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container .current_status_cover .current_status_cover_content,.statuses_container .current_status_container .current_status_cover .current_status_cover_content{padding-left:27px;line-height:normal}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container .current_status_cover .current_status_clear_icon_cover,.statuses_container .current_status_container .current_status_cover .current_status_clear_icon_cover{position:absolute;right:7px;top:2.5px;line-height:normal}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container .current_status_cover:hover,.statuses_container .current_status_container .current_status_cover:hover{border-color:#868686}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container .current_status_cover:hover .current_status_clear_icon_cover,.statuses_container .current_status_container .current_status_cover:hover .current_status_clear_icon_cover{opacity:1}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container .current_status_input_container,.statuses_container .current_status_container .current_status_input_container{opacity:0;display:none;-webkit-transition:opacity .15s ease;-moz-transition:opacity .15s ease;transition:opacity .15s ease}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container:not(.active) .current_status_cover.without_status_set,.statuses_container .current_status_container:not(.active) .current_status_cover.without_status_set{display:block}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container:not(.active) .current_status_cover.without_status_set .current_status_placeholder,.statuses_container .current_status_container:not(.active) .current_status_cover.without_status_set .current_status_placeholder{color:rgba(0,0,0,.35)!important}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container:not(.active) .current_status_cover.without_status_set .current_status_placeholder .current_status_empty_emoji_cover .ts_icon,.statuses_container .current_status_container:not(.active) .current_status_cover.without_status_set .current_status_placeholder .current_status_empty_emoji_cover .ts_icon{top:-2px}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container:not(.active) .current_status_cover.with_status_set,.statuses_container .current_status_container:not(.active) .current_status_cover.with_status_set{display:none}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container:not(.active).with_status_set .current_status_cover,.statuses_container .current_status_container:not(.active).with_status_set .current_status_cover{padding:.35rem 1.75rem .25rem .55rem}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container:not(.active).with_status_set .current_status_cover.not_editable,.statuses_container .current_status_container:not(.active).with_status_set .current_status_cover.not_editable{padding:.35rem .75rem .25rem .55rem}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container:not(.active).with_status_set .current_status_cover .current_status_emoji_picker_cover,.statuses_container .current_status_container:not(.active).with_status_set .current_status_cover .current_status_emoji_picker_cover{position:relative;display:inline-block;width:auto;height:auto;left:2px;top:1px;margin-right:5px}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container:not(.active).with_status_set .current_status_cover .current_status_cover_content,.statuses_container .current_status_container:not(.active).with_status_set .current_status_cover .current_status_cover_content{padding-left:0;line-height:1.4}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container:not(.active).with_status_set .current_status_cover.without_status_set,.statuses_container .current_status_container:not(.active).with_status_set .current_status_cover.without_status_set{display:none}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container:not(.active).with_status_set .current_status_cover.with_status_set,.statuses_container .current_status_container:not(.active).with_status_set .current_status_cover.with_status_set{display:block}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container:not(.active).with_status_set .current_status_cover.not_editable:hover,.statuses_container .current_status_container:not(.active).with_status_set .current_status_cover.not_editable:hover{cursor:default;border-color:transparent}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container.active .current_status_input_container,.statuses_container .current_status_container.active .current_status_input_container{display:block;opacity:1}
+#member_preview_scroller .member_data_table .current_status_cell .current_status_container.active .current_status_cover,.statuses_container .current_status_container.active .current_status_cover{display:none}
+.current_status_input_wrap{position:relative}
+.current_status_input_wrap .current_status_input{font-size:15px;padding-right:33px;padding-left:50px}
+.current_status_input_wrap .status_clear_icon_wrap{position:absolute;right:8px;top:9.5px}
+.current_status_input_wrap .status_clear_icon_wrap.hidden~.current_status_input{padding-right:0}
+#member_preview_scroller .current_status_input_wrap .status_clear_icon_wrap{top:7.5px}
+.current_status_emoji_picker,.current_status_emoji_picker_cover{position:absolute;top:0;left:0;width:44px;display:flex;align-items:center;justify-content:center;padding:0;background-clip:padding-box;border-right-width:1px;border-right-style:solid;border-top:1px solid transparent;border-bottom:1px solid transparent;border-radius:4px 0 0 4px}
+.current_status_emoji_picker{bottom:0;border-right-color:#868686}
+.current_status_emoji_picker .current_status_emoji{line-height:36px}
+.current_status_emoji_picker_cover{border-right-color:transparent;height:36px;line-height:normal}
+.current_status_emoji_picker_cover .current_status_emoji_cover .emoji-sizer{position:relative;left:-1px}
+.current_status_clear_icon_cover,.status_clear_icon{opacity:.5}
+.current_status_clear_icon_cover:hover,.status_clear_icon:hover{opacity:1}
+.current_status_input_container{min-height:36px}
+.current_status_input_container .current_status_action_buttons{margin-top:6px;-webkit-transition:opacity .15s ease,max-height .15s ease;-moz-transition:opacity .15s ease,max-height .15s ease;transition:opacity .15s ease,max-height .15s ease;max-height:3rem;margin-bottom:0}
+.current_status_input_container .current_status_action_buttons.invisible{max-height:0;opacity:0;margin-top:0}
+.current_status_input_container .current_status_input_label_content,.current_status_input_container .validation_message{display:none!important}
+.current_status_input_container ts-inline-saver{display:none;margin-left:4px;font-size:.9rem}
+.current_status_input_container label[for=current_status],.current_status_input_container label[for=current_status_for_team_menu]{margin:0!important}
+.current_status_input_container label[for=current_status].countdown:after,.current_status_input_container label[for=current_status_for_team_menu].countdown:after{bottom:-30px}
+.current_status_input_container label.countdown:after{margin-right:18px;z-index:1}
+.current_status_input_container #menu_items{margin:6px 0}
+.current_status_input_container #menu_items li a.current_status_preset_option{text-decoration:none;margin:0 2px;line-height:2rem}
+.current_status_input_container #menu_items li a.current_status_preset_option .current_status{margin-left:15px}
+.current_status_input_container .current_status_presets{list-style-type:none;margin:0}
+#member_preview_scroller .member_data_table,#member_preview_web_container .member_data_table,#team_list .member_data_table,.menu_member_header .member_data_table{table-layout:fixed;width:100%}
+#member_preview_scroller .member_data_table tr,#member_preview_web_container .member_data_table tr,#team_list .member_data_table tr,.menu_member_header .member_data_table tr{color:#1d1c1d;font-size:.9375rem;height:1.5625rem;line-height:1.25rem;padding:0;margin:0;border:none;vertical-align:top}
+#member_preview_scroller .member_data_table td,#member_preview_web_container .member_data_table td,#team_list .member_data_table td,.menu_member_header .member_data_table td{padding:0 0 .3125rem;margin:0}
+#member_preview_scroller .member_data_table td:first-child,#member_preview_web_container .member_data_table td:first-child,#team_list .member_data_table td:first-child,.menu_member_header .member_data_table td:first-child{width:40%}
+#member_preview_scroller .member_data_table .channel_link span,#member_preview_scroller .member_data_table .group_link span,#member_preview_web_container .member_data_table .channel_link span,#member_preview_web_container .member_data_table .group_link span,#team_list .member_data_table .channel_link span,#team_list .member_data_table .group_link span,.menu_member_header .member_data_table .channel_link span,.menu_member_header .member_data_table .group_link span{display:flex;align-items:baseline}
+#member_preview_scroller .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link),#member_preview_web_container .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link),#team_list .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link),.menu_member_header .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link){color:#1d1c1d;font-weight:400!important}
+#member_preview_scroller .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link):hover,#member_preview_web_container .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link):hover,#team_list .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link):hover,.menu_member_header .member_data_table a:not(.current_status_preset_option):not(.current_status_presets_edit_link):not(.member_details_manage_link):hover{color:#0b4c8c}
+#member_preview_scroller .member_data_table i:not([data-stringify-prefix]),#member_preview_web_container .member_data_table i:not([data-stringify-prefix]),#team_list .member_data_table i:not([data-stringify-prefix]),.menu_member_header .member_data_table i:not([data-stringify-prefix]){margin:-.0625rem .25rem -.0625rem 0;float:left}
+#member_preview_scroller .member_data_table i:not([data-stringify-prefix]):before,#member_preview_web_container .member_data_table i:not([data-stringify-prefix]):before,#team_list .member_data_table i:not([data-stringify-prefix]):before,.menu_member_header .member_data_table i:not([data-stringify-prefix]):before{font-size:1.125rem}
+#member_preview_scroller .member_data_table .current_status_empty_emoji i:not([data-stringify-prefix]),#member_preview_scroller .member_data_table .current_status_empty_emoji_cover i:not([data-stringify-prefix]),#member_preview_web_container .member_data_table .current_status_empty_emoji i:not([data-stringify-prefix]),#member_preview_web_container .member_data_table .current_status_empty_emoji_cover i:not([data-stringify-prefix]),#team_list .member_data_table .current_status_empty_emoji i:not([data-stringify-prefix]),#team_list .member_data_table .current_status_empty_emoji_cover i:not([data-stringify-prefix]),.menu_member_header .member_data_table .current_status_empty_emoji i:not([data-stringify-prefix]),.menu_member_header .member_data_table .current_status_empty_emoji_cover i:not([data-stringify-prefix]){margin:0}
+#member_preview_scroller .member_data_table .bot_label,#member_preview_web_container .member_data_table .bot_label,#team_list .member_data_table .bot_label,.menu_member_header .member_data_table .bot_label{color:#868686;font-weight:500;font-size:.75rem;line-height:1.125rem;margin:0 .15rem;padding:0 .1rem;vertical-align:middle;background:#f1f1f1}
+#member_preview_scroller,#member_preview_web_container,.menu_member_header{background-color:#fff}
+#member_preview_scroller .member_data_table td,#member_preview_web_container .member_data_table td,.menu_member_header .member_data_table td{padding-bottom:4px}
+#member_preview_scroller .member_data_table .channel_link .ts_icon_lock,#member_preview_scroller .member_data_table .group_link .ts_icon_lock,#member_preview_web_container .member_data_table .channel_link .ts_icon_lock,#member_preview_web_container .member_data_table .group_link .ts_icon_lock,.menu_member_header .member_data_table .channel_link .ts_icon_lock,.menu_member_header .member_data_table .group_link .ts_icon_lock{line-height:0;margin-left:-5px}
+#member_preview_scroller .member_details .member_image,#member_preview_web_container .member_details .member_image,.menu_member_header .member_details .member_image{margin-right:0}
+#member_preview_scroller .member_preview_timezone i.ts_icon,#member_preview_web_container .member_preview_timezone i.ts_icon,.menu_member_header .member_preview_timezone i.ts_icon{display:none}
+#member_preview_scroller .member_name+.presence,#member_preview_web_container .member_name+.presence,.menu_member_header .member_name+.presence{-webkit-transform:translateY(-2px);-moz-transform:translateY(-2px);-ms-transform:translateY(-2px);transform:translateY(-2px)}
+#member_preview_scroller .member_details,#member_preview_web_container .member_details,.menu_member_header .member_details{padding:0}
+#member_preview_scroller .member_details .member_image.thumb_512,#member_preview_web_container .member_details .member_image.thumb_512,.menu_member_header .member_details .member_image.thumb_512{float:none;margin:0 0 1rem;cursor:zoom-out;cursor:-moz-zoom-out;cursor:-webkit-zoom-out;width:360px;height:360px}
+#member_preview_scroller .member_details.cropped_preview .member_image.thumb_512,#member_preview_web_container .member_details.cropped_preview .member_image.thumb_512,.menu_member_header .member_details.cropped_preview .member_image.thumb_512{cursor:zoom-in;cursor:-moz-zoom-in;cursor:-webkit-zoom-in;height:216px;background-position:0 -72px,0 -72px}
+#member_preview_scroller .member_details .member_name_and_presence,#member_preview_web_container .member_details .member_name_and_presence,.menu_member_header .member_details .member_name_and_presence{font-size:1.375rem;line-height:1.625rem}
+#member_preview_scroller .member_details .member_name_and_presence .member_name,#member_preview_web_container .member_details .member_name_and_presence .member_name,.menu_member_header .member_details .member_name_and_presence .member_name{color:#1d1c1d}
+#member_preview_scroller .member_details .member_title,#member_preview_web_container .member_details .member_title,.menu_member_header .member_details .member_title{font-size:.9375rem;line-height:1.375rem;color:#1d1c1d}
+#member_preview_scroller .member_details .member_action_bar,#member_preview_web_container .member_details .member_action_bar,.menu_member_header .member_details .member_action_bar{margin-top:1rem}
+#member_preview_scroller .member_details .member_action_bar .btn,#member_preview_web_container .member_details .member_action_bar .btn,.menu_member_header .member_details .member_action_bar .btn{width:auto}
+#member_preview_scroller .member_details .member_action_bar .btn+.btn,#member_preview_web_container .member_details .member_action_bar .btn+.btn,.menu_member_header .member_details .member_action_bar .btn+.btn{margin-left:.25rem}
+#member_preview_scroller .member_details .member_action_bar .btn i.ts_icon_chevron_large_down,#member_preview_web_container .member_details .member_action_bar .btn i.ts_icon_chevron_large_down,.menu_member_header .member_details .member_action_bar .btn i.ts_icon_chevron_large_down{padding-left:.0625rem;margin:0}
+#member_preview_scroller .member_details .member_action_bar .btn i.ts_icon_chevron_large_down:before,#member_preview_web_container .member_details .member_action_bar .btn i.ts_icon_chevron_large_down:before,.menu_member_header .member_details .member_action_bar .btn i.ts_icon_chevron_large_down:before{position:relative;top:.125rem}
+#member_preview_scroller .member_details_divider,#member_preview_web_container .member_details_divider,.menu_member_header .member_details_divider{border-bottom:none;margin:1rem 0;width:100%}
+#member_preview_scroller .member_details_manage_link .ts_icon_cog_o::before,#member_preview_web_container .member_details_manage_link .ts_icon_cog_o::before,.menu_member_header .member_details_manage_link .ts_icon_cog_o::before{font-size:18px;position:relative;top:3px;line-height:0;margin-right:3px}
+#member_preview_scroller{width:392px}
+.supports_custom_scrollbar #member_preview_scroller{width:384px}
+#member_preview_scroller .member_details{padding:0 .5rem}
+#member_preview_scroller .member_details .member_image.thumb_512{margin-top:.5rem}
+#member_preview_scroller .member_details .member_name_and_presence{width:100%;text-align:center}
+#team_tab #member_preview_scroller .member_details{font-size:15px;padding-left:0}
+#team_tab #member_preview_scroller .member_details .member_image,#team_tab #member_preview_scroller .member_details .member_restriction_banner{margin-left:4px;margin-right:8px}
+#team_tab #member_preview_scroller .member_details .help,#team_tab #member_preview_scroller .member_details .member_action_bar,#team_tab #member_preview_scroller .member_details .member_current_status_actions,#team_tab #member_preview_scroller .member_details .member_current_status_display,#team_tab #member_preview_scroller .member_details .member_data_shared_message,#team_tab #member_preview_scroller .member_details .member_data_table,#team_tab #member_preview_scroller .member_details .member_data_table_guest_fields,#team_tab #member_preview_scroller .member_details .member_data_table_shared_channels,#team_tab #member_preview_scroller .member_details .member_data_table_shared_teams,#team_tab #member_preview_scroller .member_details .member_name_and_presence,#team_tab #member_preview_scroller .member_details .member_restriction,#team_tab #member_preview_scroller .member_details .member_title,#team_tab #member_preview_scroller .member_details .member_type_and_description{margin-left:14px;margin-right:18px}
+#team_tab #member_preview_scroller .member_details .current_status_expiration,#team_tab #member_preview_scroller .member_details .member_current_status_display{line-height:22px}
+#team_tab #member_preview_scroller .member_details .current_status_expiration .emoji-sizer,#team_tab #member_preview_scroller .member_details .member_current_status_display .emoji-sizer{font-size:16px}
+#team_tab #member_preview_scroller .member_details .member_action_bar .c-button:not(:first-child){margin-left:12px}
+#team_tab #member_preview_scroller .member_details .member_name{color:#1d1c1d;font-weight:900}
+#team_tab #member_preview_scroller .member_details .member_title:not(:empty){color:#616061;margin-top:2px}
+#team_tab #member_preview_scroller .member_details .member_preview_menu_target{line-height:36px;min-width:initial}
+#team_tab #member_preview_scroller .member_details .member_data_table{margin-top:8px}
+#member_preview_web_container .member_details{max-width:540px;margin:0 auto}
+#member_preview_web_container .member_details .member_image.thumb_512{cursor:default}
+#member_preview_web_container .member_action_bar{display:flex}
+#member_preview_web_container .account_settings_link .ts_icon_cog_o{margin-right:0;font-size:20px;line-height:.6}
+#member_preview_web_container .account_settings_link .ts_icon_cog_o:before{line-height:1}
+.menu_member_header .member_details{width:320px;cursor:pointer;position:relative}
+.menu_member_header .member_details.cropped_preview .cropped_preview_member_image{border-top-right-radius:.25rem;border-bottom-right-radius:0;border-bottom-left-radius:0;border-top-left-radius:.25rem;background-clip:padding-box;margin:0;width:320px;height:224px;position:relative}
+.menu_member_header .member_details.cropped_preview .cropped_preview_member_image:hover .member_image.thumb_512{background-position:0 0,0 -48px,0 -48px}
+.menu_member_header .member_details.cropped_preview .cropped_preview_member_image:hover .member_details_over_image,.menu_member_header .member_details.cropped_preview .cropped_preview_member_image:hover .member_restriction_over_image{opacity:0}
+.menu_member_header .member_details.cropped_preview .cropped_preview_member_image .member_image.thumb_512{cursor:pointer;border-top-right-radius:.25rem;border-bottom-right-radius:0;border-bottom-left-radius:0;border-top-left-radius:.25rem;background-clip:padding-box;margin:0;width:320px;height:224px;background-position:0 -448px,0 -48px,0 -48px;background-size:100% 300%,100%,100%,100%;-webkit-transition:background-position 150ms ease;-moz-transition:background-position 150ms ease;transition:background-position 150ms ease}
+.menu_member_header .member_details.cropped_preview .cropped_preview_member_image .member_details_over_image{opacity:1;pointer-events:none;position:absolute;left:1rem;right:1rem;bottom:.75rem;-webkit-transition:opacity 150ms ease;-moz-transition:opacity 150ms ease;transition:opacity 150ms ease}
+.menu_member_header .member_details.cropped_preview .cropped_preview_member_image .member_restriction_over_image{opacity:1;-webkit-transition:opacity 150ms ease;-moz-transition:opacity 150ms ease;transition:opacity 150ms ease;pointer-events:none;position:absolute;top:0;width:100%;border-radius:.2rem .2rem 0 0;background-color:rgba(29,28,29,.8);color:#fff;padding:10px 14px;font-size:13px}
+.menu_member_header .member_details.cropped_preview .cropped_preview_member_image .member_restriction_over_image.external{padding-right:32px}
+.menu_member_header .member_details.cropped_preview .cropped_preview_member_image .member_restriction_over_image .ts_icon{line-height:0}
+.menu_member_header .member_details.cropped_preview .cropped_preview_member_image .member_restriction_over_image .ts_icon:before{margin-left:-5px}
+.menu_member_header .member_details.cropped_preview .cropped_preview_member_image .member_restriction_over_image .ts_icon_envelope_o{left:0;top:2px;position:relative}
+.menu_member_header .member_details.cropped_preview .cropped_preview_member_image .member_restriction_over_image .ts_icon_envelope_o:before{margin-left:0}
+.menu_member_header .member_details.cropped_preview .cropped_preview_member_image .member_restriction_over_image .external_team_badge{top:9px;right:9px}
+.menu_member_header .member_details .member_current_status,.menu_member_header .member_details .member_timezone_value{color:#1d1c1d;font-size:.75rem;line-height:1.125;padding:.5rem 1rem;margin:0}
+.menu_member_header .member_details .member_current_status a,.menu_member_header .member_details .member_timezone_value a{color:#1d1c1d}
+.menu_member_header .member_details .member_current_status a:hover,.menu_member_header .member_details .member_timezone_value a:hover{color:#0b4c8c}
+.menu_member_header .member_details .member_timezone_value{padding-bottom:.5625rem}
+.menu_member_header .member_details .member_name_and_presence{color:#fff;font-size:1.125rem;line-height:1.5625rem;font-weight:900;overflow:hidden;text-overflow:ellipsis}
+.menu_member_header .member_details .member_name_and_presence .member_name{color:#fff;text-decoration:none}
+.menu_member_header .member_details .member_name_and_presence .presence.away{color:#fff}
+.menu_member_header .member_details .member_display_name,.menu_member_header .member_details .member_title{color:#fff;font-size:.9375rem;line-height:1.375rem;margin:0}
+.menu_member_header .member_details .member_current_status{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;display:inline-block}
+.menu_member_header .member_details .member_current_status .member_current_status_label{color:#616061}
+.menu_member_header .member_details .member_current_status .current_status{margin-left:5px}
+.menu_member_header .member_details .member_current_status .current_status .emoji-sizer:first-of-type{margin-right:2px}
+.menu_member_header .member_details_divider{border-color:#ddd;margin:0}
+#member_kick_channel_item .ts_icon_lock{line-height:0}
+.member_menu{max-width:320px}
+.menu_member_footer{max-width:320px;padding:16px;border-top:1px solid #ddd;border-radius:0 0 6px 6px}
+.menu_member_footer input{margin-bottom:0}
+.menu_member_footer .menu_member_footer_notice{margin:0;padding:0 .75rem .25rem .25rem;color:#616061;line-height:1.46666667;font-size:15px}
+@media screen and (max-width:424px){#member_preview_web_container .member_details .member_image.thumb_512{width:192px;height:192px}
+}
+@media screen and (min-width:1367px){#member_preview_scroller{width:442px}
+.supports_custom_scrollbar #member_preview_scroller{width:434px}
+#member_preview_scroller .member_details .member_image.thumb_512{width:410px;height:410px}
+#member_preview_scroller .member_details.cropped_preview .member_image.thumb_512{height:246px;background-position:0 -82px,0 -82px}
+}
+@media screen and (min-width:1441px){#member_preview_scroller{width:492px}
+.supports_custom_scrollbar #member_preview_scroller{width:483px}
+#member_preview_scroller .member_details .member_image.thumb_512{width:460px;height:460px}
+#member_preview_scroller .member_details.cropped_preview .member_image.thumb_512{height:276px;background-position:0 -92px,0 -92px}
+}
+#team_tab #member_preview_container .heading{width:auto;padding-right:1rem}
+#team_tab #member_preview_scroller{width:100%}
+#team_tab #member_preview_scroller .member_details{padding:0 .25rem 0 8px}
+#team_tab #member_preview_scroller .member_details .member_image.thumb_512{display:block;width:100%;background-size:cover;background-position-x:50%}
+#team_tab #member_preview_container .member_action_bar{display:flex}
+#team_tab #member_preview_container .member_action_bar .btn{line-height:1.2}
+#team_tab #member_preview_container .account_settings_link .ts_icon_cog_o,#team_tab #member_preview_container .member_preview_menu_target .ts_icon_chevron_large_down{margin-right:0;font-size:20px;line-height:.6}
+#team_tab #member_preview_container .account_settings_link .ts_icon_cog_o:before{line-height:1}
+.member_details{padding-left:164px;position:relative}
+.member_details p{margin-bottom:.5rem;line-height:1.5rem;font-size:.9rem}
+.member_profile_card{padding:1rem .5rem;width:192px}
+.member_meta{color:#1d1c1d;font-size:.8rem;line-height:1.2rem}
+#team_list_container .team_list_item{padding-left:.5rem}
+#team_list_container .team_list_item .c-unified_member__label--unavailable{margin-left:12px;padding-top:7px}
+#team_list_container #team_list{margin-bottom:0}
+#member_preview_scroller{padding:0 1% 0 0;-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text;position:relative}
+.monkey_scroll_hider.scrolling #member_preview_scroller{padding:0 1rem 0 0}
+#member_preview_container .member_details{position:relative}
+#member_preview_container .member_details .member_image{margin:0 0 .5rem -80px;float:left;cursor:nesw-resize;cursor:-moz-zoom-in;cursor:-webkit-zoom-in}
+#member_preview_container .member_details.expanded_member_image{padding-left:0}
+#member_preview_container .member_details.expanded_member_image .member_image{cursor:-moz-zoom-out;cursor:-webkit-zoom-out;margin-left:0;float:none}
+.member_type_and_description{max-width:100%;font-size:1.125rem;line-height:1.375rem}
+.member_restriction_banner{position:relative;margin:8px auto 0;width:360px;max-width:100%;padding:10px 32px 10px 14px;border-radius:.2rem .2rem 0 0;background-color:#1d1c1d;color:#fff;font-size:13px;line-height:1.23}
+@media screen and (max-width:424px){.member_restriction_banner{width:192px}
+}
+#member_preview_scroller .member_restriction_banner{width:100%}
+.member_restriction_banner .ts_icon{line-height:0}
+.member_restriction_banner .ts_icon:before{margin-left:-5px}
+.member_restriction_banner .external_team_badge,.member_restriction_banner .ts_icon_question_circle{position:absolute;top:9px;right:9px;line-height:.8;height:25px}
+.member_restriction_banner .ts_icon_envelope_o{left:0;top:2px;position:relative}
+.member_restriction_banner .ts_icon_envelope_o:before{margin-left:0}
+.member_details .member_restriction_banner~.member_image{border-radius:0 0 .2rem .2rem;margin-top:0!important}
+.menu_member_header{cursor:pointer}
+.menu_member_header:hover .member_name{text-decoration:underline}
+#file_member_filter{background:#fff}
+#file_member_filter_no_matches{margin:0;text-align:center;padding:.6rem .75rem 1.1rem;max-width:220px}
+.member_item{display:none}
+.member_item.active{display:block}
+#team_filter .member_filter,#user_group_filter .member_filter{padding-left:1.9rem;padding-right:.95rem}
+#client-ui .member_file_filter_menu .searchable_member_list_input,#client-ui .member_filter{padding:.1rem 1.8rem 0;height:1.75rem;line-height:1rem;font-size:.9rem;border-radius:1rem;border:1px solid #868686;outline:0;box-shadow:none}
+#client-ui .member_file_filter_menu{width:222px;height:334px}
+#client-ui .member_file_filter_menu #menu_list_container{display:none}
+#client-ui .member_file_filter_menu .searchable_member_list_search_bar{padding:.5rem}
+#client-ui .member_file_filter_menu .searchable_member_list_search_bar .icon_search{top:.3rem}
+#client-ui .member_file_filter_menu .searchable_member_list_search_bar .icon_close{top:.4rem;right:.3rem}
+#client-ui .member_file_filter_menu .searchable_member_list_scroller{height:280px;overflow-y:auto;overflow-x:hidden}
+#client-ui .member_file_filter_menu .searchable_member_list_scroller .team_list_item{min-height:0;padding:0 .3rem .2rem;margin:0;border:none;width:100%}
+#client-ui .member_file_filter_menu .searchable_member_list_scroller .team_list_item .channel_page_member_row{margin:0;border:1px solid transparent;border-radius:5px}
+#client-ui .member_file_filter_menu .searchable_member_list_scroller .team_list_item .c-unified_member__name{color:#1d1c1d}
+#client-ui .member_file_filter_menu .searchable_member_list_scroller .team_list_item:hover .channel_page_member_row{background:#1d9bd1}
+#client-ui .member_file_filter_menu .searchable_member_list_scroller .team_list_item:hover .c-unified_member .presence,#client-ui .member_file_filter_menu .searchable_member_list_scroller .team_list_item:hover .c-unified_member__display-name{color:#fff}
+#client-ui .member_file_filter_menu .searchable_member_list_scroller .team_list_item:hover .c-unified_member .presence{opacity:1}
+#client-ui .member_file_filter_menu .searchable_member_list_scroller .team_list_item:hover .member{color:#fff;text-decoration:none}
+#client-ui .member_file_filter_menu .searchable_member_list_scroller .team_list_item:hover .c-unified_member__name{color:#fff}
+#client-ui .member_file_filter_menu .searchable_member_list_scroller .channel_page_member_row{height:auto}
+#client-ui #team_list_container #team_filter,#client-ui #user_groups_container #user_group_filter{margin-right:0;margin-top:-1px}
+#client-ui #team_list_container #team_filter .member_filter,#client-ui #user_groups_container #user_group_filter .member_filter{border:none;box-shadow:none;border-left:1px solid #f0f0f0;border-radius:0;width:8rem;padding-right:.8rem;padding-top:0;height:1.5rem}
+#client-ui #file_member_filter .member_filter{margin:.5rem .3rem .35rem .6rem!important;border-color:#ddd;width:200px}
+#client-ui .team_tabs_container{border-bottom:1px solid #f0f0f0;width:99%!important}
+#client-ui #channel_member_list_container.searchable_member_list .no_results{margin-top:1rem}
+#client-ui .searchable_member_list_search_bar a.icon_close{top:.3rem}
+#client-ui .searchable_member_list_input{padding-left:1.8rem}
+#client-ui .searchable_member_list .member_item,#client-ui .searchable_member_list .team_list_item{cursor:pointer;width:100%}
+#client-ui .searchable_member_list .team_list_item{padding:.75rem .5rem .75rem .75rem;border-bottom:1px solid #ddd;border-top:none}
+#client-ui .searchable_member_list .team_list_item:hover{background:#f8f8f8}
+#client-ui .searchable_member_list .searchable_member_list_scroller{margin-top:0}
+#client-ui #team_list_container .searchable_member_list_search{border-bottom:1px solid #ddd}
+#client-ui #team_list_container .searchable_member_list_search .icon_search{top:.8rem;left:.9rem}
+#client-ui #team_list_container .searchable_member_list_search .icon_close{top:.8rem;right:.8rem}
+#client-ui #team_list_container .searchable_member_list_input{border:none;padding:.7rem .75rem .7rem 2.4rem}
+#client-ui #team_list_container .searchable_member_list_input:focus{box-shadow:none}
+#client-ui #team_list_container .searchable_member_list_input:focus~.icon_search{color:#868686}
+#team_filter .icon_search,#team_filter .ts_icon_spinner,#user_group_filter .icon_search,#user_group_filter .ts_icon_spinner,.searchable_member_list_search_bar .icon_search,.searchable_member_list_search_bar .ts_icon_spinner{position:absolute;font-size:1rem;top:5px;left:8px;color:#616061}
+#team_filter .ts_icon_spinner,#user_group_filter .ts_icon_spinner,.searchable_member_list_search_bar .ts_icon_spinner{top:10px}
+#team_filter .icon_search.indifferent_grey+.ts_icon_spinner,#user_group_filter .icon_search.indifferent_grey+.ts_icon_spinner,.searchable_member_list_search_bar .icon_search.indifferent_grey+.ts_icon_spinner{color:#1d1c1d}
+#team_filter a.icon_close,#user_group_filter a.icon_close,.searchable_member_list_search_bar a.icon_close{position:absolute;right:8px;top:6px;color:#868686;font-size:20px}
+#team_filter a.icon_close:hover,#user_group_filter a.icon_close:hover,.searchable_member_list_search_bar a.icon_close:hover{color:#1264a3;text-decoration:none}
+#client-ui .icon_search{position:absolute;font-size:.9rem;top:3px;left:7px;color:#ccc}
+#client-ui #file_member_filter .icon_search{top:13px;left:17px}
+#client-ui .ts_icon_spinner{top:4px}
+#client-ui .icon_search.indifferent_grey+.ts_icon_spinner{color:#1d1c1d}
+#client-ui a.icon_close{top:4px;position:absolute;color:#868686;font-size:18px}
+#client-ui a.icon_close:hover{color:#1264a3;text-decoration:none}
+#client-ui #file_member_filter .icon_close{right:9px;top:13px}
+#slackbot_meta,.dm_badge,.mpdm_badge{margin:0}
+.dm_badge,.mpdm_badge{margin-bottom:1.5rem}
+.dm_badge i,.mpdm_badge i{margin-right:.2rem}
+.dm_badge .member_image,.mpdm_badge .member_image{float:left}
+.dm_badge .dm_badge_meta,.mpdm_badge .dm_badge_meta{margin:0 0 .5rem;padding-top:0;font-size:1rem;line-height:1.25rem;color:#1d1c1d;margin-left:0!important;margin-bottom:0!important}
+.dm_badge .dm_badge_meta .member_team_name,.mpdm_badge .dm_badge_meta .member_team_name{color:#868686}
+.dm_badge .dm_badge:hover a.member_preview_link,.mpdm_badge .dm_badge:hover a.member_preview_link{color:inherit}
+.dm_badge .dm_badge:hover a,.mpdm_badge .dm_badge:hover a{color:#1264a3}
+.dm_badge .hint,.mpdm_badge .hint{color:#616061}
+.dm_badge .member_type_and_description,.mpdm_badge .member_type_and_description{font-size:1rem}
+.mpdm_badge .member_image{margin:0 .75rem 0 0}
+.member_small .enter_icon{display:none}
+.lfs_item.active .member_small .enter_icon{display:block}
+.member_preview_link .member_type_badge{pointer-events:none}
+.unknown_member{display:inline-block;background:#ddd;width:80px;height:10px;position:relative;top:0;border-radius:5px}
+.member_type_badge{display:inline-block}
+.member_type_badge.ts_icon_restricted_user,.member_type_badge.ts_icon_single_channel_guest{line-height:1.375rem}
+.member_type_badge.ts_icon_restricted_user:before,.member_type_badge.ts_icon_single_channel_guest:before{font-size:29px}
+.member_type_badge svg{display:inline;vertical-align:bottom}
+.member_type_badge svg.member_type_badge_background_ra,.member_type_badge svg.member_type_badge_background_ura{position:absolute;bottom:6px;right:6px}
+.member_type_badge svg.member_type_badge_background_ra{width:.8125rem;height:.8125rem}
+.member_type_badge svg.member_type_badge_background_ura{width:1rem;height:1rem}
+.member_type_badge svg.member_type_badge_icon{position:absolute;bottom:6px;right:6px;width:.625rem;height:.625rem}
+.member_type_and_description .member_type_badge.ts_icon_restricted_user,.member_type_and_description .member_type_badge.ts_icon_single_channel_guest{line-height:1.375rem;margin-right:-8px;margin-left:-6px}
+.member_type_and_description .member_type_badge.ts_icon_restricted_user:before,.member_type_and_description .member_type_badge.ts_icon_single_channel_guest:before{font-size:29px}
+.member_timezone_value .member_type_badge.ts_icon_restricted_user,.member_timezone_value .member_type_badge.ts_icon_single_channel_guest{margin-right:-5px;margin-left:-5px}
+.member_timezone_value .member_type_badge.ts_icon_restricted_user:before,.member_timezone_value .member_type_badge.ts_icon_single_channel_guest:before{font-size:20px}
+.member_image.thumb_20 .member_type_badge,.member_image.thumb_24 .member_type_badge{position:absolute;right:-3px;bottom:-3px}
+.member_image.thumb_20 .member_type_badge.member_type_badge_10,.member_image.thumb_24 .member_type_badge.member_type_badge_10{right:-6px;bottom:-6px}
+.member_image.thumb_32 .member_type_badge,.member_image.thumb_36 .member_type_badge,.member_image.thumb_48 .member_type_badge,.member_image.thumb_56 .member_type_badge,.member_image.thumb_72 .member_type_badge{position:absolute;right:-6px;bottom:-6px}
+.member_image.thumb_72 .member_type_badge svg.member_type_badge_background_ra{width:1.21875rem;height:1.21875rem}
+.member_image.thumb_72 .member_type_badge svg.member_type_badge_background_ura{width:1.5rem;height:1.5rem}
+.member_image.thumb_72 .member_type_badge svg.member_type_badge_icon{width:.9375rem;height:.9375rem}
+.member_image.thumb_192 .member_type_badge{position:absolute;right:-6px;bottom:-6px}
+.member_image.thumb_192 .member_type_badge svg.member_type_badge_background_ra{width:1.3rem;height:1.3rem}
+.member_image.thumb_192 .member_type_badge svg.member_type_badge_background_ura{width:1.6rem;height:1.6rem}
+.member_image.thumb_192 .member_type_badge svg.member_type_badge_icon{width:1rem;height:1rem}
+.member_image.thumb_512 .member_type_badge{position:absolute;right:-36px;bottom:-36px}
+.member_image.thumb_512 .member_type_badge svg.member_type_badge_background_ra{width:6.5rem;height:6.5rem}
+.member_image.thumb_512 .member_type_badge svg.member_type_badge_background_ura{width:8rem;height:8rem}
+.member_image.thumb_512 .member_type_badge svg.member_type_badge_icon{width:5rem;height:5rem}
+.external_team_badge{display:inline-block;vertical-align:bottom;position:absolute;bottom:-2px;right:-2px;border-radius:3px;box-shadow:0 0 0 2px #fff;background-size:100%;background-color:#fff;background-repeat:no-repeat}
+.external_team_badge:after{content:'';display:block;position:absolute;top:0;width:100%;height:100%;box-shadow:inset 0 0 0 1px rgba(0,0,0,.08);border-radius:3px}
+.external_team_badge.default{background-color:#616061;font-weight:800;font-size:10px;line-height:1.6;color:#fff;font-style:normal;letter-spacing:0;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,.2);float:left}
+.external_team_badge.team_badge_16{width:16px;height:16px}
+.external_team_badge.team_badge_22{width:22px;height:22px;border-radius:4px;box-shadow:0 0 0 3px #fff}
+.external_team_badge.team_badge_22.default{font-size:13px;line-height:1.8}
+#channel_list .ts_icon_shared_channel{margin-left:-2px}
+#channel_list .ts_icon_shared_channel:before{font-size:1.625rem;margin-top:-2px}
+#channel_list .shared_team .member_image{margin-top:-5px}
+#channel_list .shared_team .shared_team_name_and_owner{margin-left:45px}

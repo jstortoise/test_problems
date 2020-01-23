@@ -1,0 +1,10 @@
+@font-face{font-family:appleLogo;src:local("Lucida Grande");unicode-range:U+F8FF}
+.sidebar_menu{margin-bottom:2rem}
+.sidebar_menu_header{font-size:18px;font-weight:900;line-height:22px;padding:0 9px;margin-bottom:12px}
+.sidebar_menu_list{list-style-type:none;margin:0}
+.sidebar_menu_list>:not(:first-child){margin-top:3px}
+.sidebar_menu_list_item{cursor:pointer;font-size:15px!important;display:block;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;color:#1d1c1d;line-height:15px;padding:4px 8px;border:1px solid transparent;border-radius:4px}
+.sidebar_menu_list_item.is_active{background-color:#1264a3;border-color:#1264a3;font-weight:700;color:#fff;text-shadow:0 1px 0 rgba(0,0,0,.1)}
+.sidebar_menu_list_item:not(.is_active):hover{background-color:rgba(29,155,209,.1);border-color:#dcf0fb}
+a.sidebar_menu_list_item{color:#1d1c1d}
+a.sidebar_menu_list_item:hover{text-decoration:none}
