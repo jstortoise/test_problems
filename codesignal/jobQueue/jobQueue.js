@@ -3,20 +3,18 @@ function createJobQueue() {
     let queue = [];
 
     const addJob = job => {
-        let promise = function() {
-            return new Promise((resolve, reject) => {
-                try {
-                    const match = queue.filter(obj => obj.job === job);
-                    if (match !== undefined) {
-                        job().then(resolve).catch(reject);
-                    } else {
-                        reject();
-                    }
-                } catch(err) {
-                    reject(err);
+        const promise = () => new Promise((resolve, reject) => {
+            try {
+                const match = queue.filter(obj => obj.job === job);
+                if (match !== undefined) {
+                    job().then(resolve).catch(reject);
+                } else {
+                    reject();
                 }
-            });
-        }
+            } catch(err) {
+                reject(err);
+            }
+        });
 
         queue.push({ job, promise });
         return promise;
@@ -45,7 +43,9 @@ function createJobQueue() {
     };
 
     return {
-        addJob, cancelJob, processAllJobs
+        addJob,
+        cancelJob,
+        processAllJobs
     };
 }
 
