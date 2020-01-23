@@ -25,7 +25,6 @@ function createJobQueue() {
     const cancelJob = job => {
         for (let i = 0; i < queue.length; i++) {
             if (job === queue[i].job) {
-                console.log('founded cancelling job');
                 queue.splice(i, 1);
                 return;
             }
