@@ -7,7 +7,7 @@ function solution($N, $S, $T) {
 
     $ships = explode(",", $S);
 
-    $sunk_count = 0, $hit_count = 0;
+    $sunk_count = 0; $hit_count = 0;
     for ($i = 0; $i < sizeof($ships); $i++) {
         $ship = explode(" ", $ships[$i]);
 
