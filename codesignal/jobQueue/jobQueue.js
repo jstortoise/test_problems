@@ -29,17 +29,15 @@ function createJobQueue() {
         }
     };
 
-    const processAllJobs = () => {
+    const processAllJobs = async () => {
         let success = 0;
-        return new Promise(async (resolve, reject) => {
-            for (let i = 0; i < queue.length; i++) {
-                try {
-                    await queue[i].promise();
-                    success++;
-                } catch(e) {}
-            }
-            resolve(success);
-        });
+        for (let i = 0; i < queue.length; i++) {
+            try {
+                await queue[i].promise();
+                success++;
+            } catch(e) {}
+        }
+        return success;
     };
 
     return {
