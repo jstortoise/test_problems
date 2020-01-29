@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="./style.css" />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <button class="ui-button ui-corner-all ui-widget" onclick="onAddTask()">Add Task</button>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Task</th>
+                <th>Description</th>
+                <th>Deadline</th>
+                <th>Priority</th>
+                <th colspan="2">Priority</th>
+            </tr>
+        </thead>
+        <tbody id="task_list">
+        </tbody>
+    </table>
+
+    <div id="dialog-form" title="Task Information">
+        <p class="validateTips">All form fields are required.</p>
+
+        <form>
+            <fieldset>
+                <label for="name">Task name</label>
+                <input type="text" name="name" id="name">
+
+                <label for="description">Task Description</label>
+                <textarea name="description" id="description"></textarea>
+
+                <label for="deadline">Deadline</label>
+                <input type="date" name="deadline" id="deadline">
+
+                <label for="priority">Priority</label>
+                <select name="priority" id="priority">
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select>
+
+                <!-- Allow form submission with keyboard without duplicating the dialog button -->
+                <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+
+            </fieldset>
+        </form>
+    </div>
+
+    <div id="dialog-confirm" title="Delete the task?">
+        <p><span class="ui-icon ui-icon-alert" style="float:left; margin:12px 12px 20px 0;"></span>The task will be permanently deleted and cannot be recovered. Are you sure?</p>
+    </div>
+</body>
+
+</html>
