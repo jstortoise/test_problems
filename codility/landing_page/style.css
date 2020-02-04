@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 100px;
+    color: #4F4D53;
+    margin: 0;
+}
+
+h2 {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 64px;
+    color: #E8BE02;
+}
+
+h3 {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 20px;
+    color: #E8BE02;
+}
+
+h4 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    color: #4F4D53;
+}
+
+header {
+    text-align: center;
+    padding-top: 160px;
+    background-image: url(./media/img_hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 315px;
+}
+
+header .photos {
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .photos img {
+    border-radius: 500px;
+}
+
+.content {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.members {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.members .person {
+    text-align: left;
+}
+
+.members .person .photo {
+    margin: 0 30px;
+}
+
+.members .person {
+    margin: 0 20px;
+    display: flex;
+}
+
+.person .photo img {
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.members .person .description {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.members .person .description h3, .members .person .description p {
+    margin: 0;
+    width: 100%;
+}
+
+footer {
+    border-top: 10px solid #E8BE02;
+    background: #4F4D53;
+    padding: 10px 0 100px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container h4 {
+    margin: 0;
+}
