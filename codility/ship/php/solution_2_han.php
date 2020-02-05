@@ -26,8 +26,7 @@ function solution($N, $S, $T) {
         }
     }
 
-    echo $sunk_count;
-    echo $hit_count;
+    return $sunk_count . ',' . $hit_count;
 }
 
 function initArray($n) {
