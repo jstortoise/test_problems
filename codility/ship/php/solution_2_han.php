@@ -1,5 +1,6 @@
 <?php
 
+// 75%
 function solution($N, $S, $T) {
     $arr = initArray($N);
 
