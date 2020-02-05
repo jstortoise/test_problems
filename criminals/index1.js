@@ -18,9 +18,7 @@ function searchBy(keyword) {
             match_key = key;
             status = 4;
             break;
-        }
-
-        if (status < 3 && key.toLowerCase().includes(keyword)) {
+        } else if (status < 3 && key.toLowerCase().includes(keyword)) {
             match_key = key;
             status = 3;
         } else if (value) {
