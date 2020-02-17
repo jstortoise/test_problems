@@ -1,0 +1,205 @@
+<div class="coding-question__left-pane"><section><h1 class="question-view__title">1. Movie Titles</h1></section><section class="question-view__instruction"><div class="candidate-rich-text"><div id="8j5e6900r6c-instruction"><style type="text/css">.ps-content-wrapper-v0 div { margin: 0 auto; overflow: auto; } .ps-content-wrapper-v0 div.preheader { display: none; } .ps-content-wrapper-v0 p { white-space: pre-wrap; padding-left: 4px; padding-right: 4px; padding-top: 0px; padding-bottom: 2px; } .ps-content-wrapper-v0 p.section-title { font-weight: bold; padding-bottom: 0px; } .ps-content-wrapper-v0 ol.plain-list, .ps-content-wrapper-v0 ul.plain-list { list-style-type: none; padding: 4px; } .ps-content-wrapper-v0 li { white-space: normal; margin-top: 4px; margin-bottom: 4px; } .ps-content-wrapper-v0 code { color: black; } .ps-content-wrapper-v0 pre { background-color: #f4faff; border: 0; border-radius: 2px; margin: 8px; padding: 10px; } .ps-content-wrapper-v0 figure { background-color: transparent; display: table; margin-top: 8px; margin-bottom: 8px; text-align: center; margin-left: auto; margin-right: auto; } .ps-content-wrapper-v0 figcaption { text-align: center; display: table-caption; caption-side: bottom; margin-top: 4px; margin-bottom: 4px; } .ps-content-wrapper-v0 img { width: auto; max-width: 100%; height: auto; } .ps-content-wrapper-v0 details { background-color: transparent; padding-left: 4px; padding-right: 4px; padding-top: 0px; padding-bottom: 2px; } .ps-content-wrapper-v0 details summary { background-color: #39424e; color: white; font-weight: bold; margin-top: 4px; margin-bottom: 4px; padding: 8px; } .ps-content-wrapper-v0 details div.collapsable-details { margin: 0 auto; padding-left: 4px; padding-right: 4px; padding-top: 0px; padding-bottom: 2px; overflow: auto; } .ps-content-wrapper-v0 details div.collapsable-details pre { margin-left: 4px; margin-right: 4px; margin-top: 4px; margin-bottom: 4px; } .ps-content-wrapper-v0 table { border: 1px solid black; border-collapse: collapse; border-color: darkgray; margin: 0 auto; margin-top: 8px; margin-bottom: 8px; padding: 8px; width: 96%; table-layout: fixed; } .ps-content-wrapper-v0 table tbody tr th, .ps-content-wrapper-v0 table tbody tr td { font-weight: bold; white-space: nowrap; text-align: center; vertical-align: middle; border: 1px solid black; border-color: darkgray; padding: 8px; } .ps-content-wrapper-v0 table tbody tr th.description { width: 60%; } .ps-content-wrapper-v0 table tbody tr td { font-weight: normal; white-space: normal; } .ps-content-wrapper-v0 table.function-params tbody tr:first-child td.headers { border-bottom-width: 2px; } .ps-content-wrapper-v0 table.function-params tbody tr:last-child td { border-top-width: 2px; border-top-color: darkgray; } .ps-content-wrapper-v0 table.function-params tbody tr td.headers { width: 25%; font-weight: bold; text-align: center; border: 1px solid black; border-right-width: 2px; border-color: darkgray; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell { width: 100%; height: 100%; padding: 0px; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table { width: 100%; height: 100%; padding: 0px; margin: 0px; border: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr td.code { white-space: normal; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr th { border-top: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr th:first-child { border-left: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr th:last-child { border-right: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr:last-child td { border-bottom: 0; border-top-width: 1px; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr td:first-child { border-left: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr td:last-child { border-right: 0; } .ps-content-wrapper-v0 .left { text-align: left; } .ps-content-wrapper-v0 .right { text-align: right; } .ps-content-wrapper-v0 .code { font-family: monospace; white-space: nowrap; } .ps-content-wrapper-v0 .json-object-array ol, .ps-content-wrapper-v0 .json-object-array ol ul { margin-top: 0px; padding-left: 14px; } .json-object-array li { float: left; margin-right: 30px; margin-left: 10px; } .json-object-array pre { padding: 4px; margin-left: 0px; }
+</style>
+<div class="ps-content-wrapper-v0">
+<div style="display:none;font-size:1px;color:#333333;line-height:1px;overflow:hidden;">Query a JSON response and print certain results.</div>
+
+<p>Write an <em>HTTP GET</em> method to retrieve information from a movie database.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Function Description</strong></p>
+
+<p>Given a string <em>substr, getMovieTitles</em> must perform the following tasks:</p>
+
+<ol>
+	<li>Query <code style="color:black;">https://jsonmock.hackerrank.com/api/movies/search/?Title=substr</code>(replace substr).&nbsp;
+
+	<ul>
+	</ul>
+	</li>
+	<li>Initialize the <em>titles</em>&nbsp;array to store <code style="color:black;">total</code>&nbsp;string elements. Store the&nbsp;<code style="color:black;">Title</code> from each record returned in the <code>data</code> field to the <em>titles</em> array.</li>
+	<li>Sort <em>titles</em> in ascending order and return it as your answer.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<p>The query response from the website is a JSON response with the following five fields:</p>
+
+<ul>
+	<li>
+<code style="color:black;">page</code>: The current page.</li>
+	<li>
+<code style="color:black;">per_page</code>: The maximum number of results per page.</li>
+	<li>
+<code style="color:black;">total</code>: The total number of records in the search result.</li>
+	<li>
+<code style="color:black;">total_pages</code>: The total number of pages which must be queried to get all the results.</li>
+	<li>
+<code style="color:black;">data</code>: An array of JSON objects containing movie information</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>If there are multiple pages to retrieve, the query should read <code style="color:black;">https://jsonmock.hackerrank.com/api/movies/search/?Title=substr&amp;page=pageNumber</code>, replacing <code style="color:black;">substr </code>and <code style="color:black;">pageNumber</code>.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<details title="Click bar to open/close."><summary class="section-title">Input Format For Custom Testing</summary>
+
+<div class="collapsable-details">
+<p>Input from stdin will be processed as follows and passed to the function.</p>
+
+<p>&nbsp;</p>
+
+<p>A single string, <em>substr</em>, the substring to query.</p>
+
+<p>&nbsp;</p>
+</div>
+</details>
+
+<details open="open"><summary class="section-title">Sample Case 0</summary>
+
+<p><strong>Sample Input 0</strong></p>
+
+<pre>STDIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function
+-----&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--------
+spiderman&nbsp;&nbsp;&nbsp;&nbsp;→ substr = 'spiderman'</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>Sample Output 0</strong></p>
+
+<pre>Amazing Spiderman Syndrome
+Fighting, Flying and Driving: The Stunts of Spiderman 3
+Hollywood's Master Storytellers: Spiderman Live
+Italian Spiderman
+Spiderman
+Spiderman
+Spiderman 5
+Spiderman and Grandma
+Spiderman in Cannes
+Superman, Spiderman or Batman
+The Amazing Spiderman T4 Premiere Special
+The Death of Spiderman
+They Call Me Spiderman</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>Explanation 0</strong></p>
+
+<p>For this example, we want all titles that contain the substring <code style="color:black;">spiderman</code>. The response for the query <code style="color:black;">https://jsonmock.hackerrank.com/api/movies/search/?Title=spiderman&amp;page=1</code> is:</p>
+
+<pre><code class="language-json">{
+  "page": "1",
+  "per_page": 10,
+  "total": 13,
+  "total_pages": 2,
+  "data": [
+    {
+      "Title": "Italian Spiderman",
+      "Year": 2007,
+      "imdbID": "tt2705436"
+    },
+    {
+      "Title": "Superman, Spiderman or Batman",
+      "Year": 2011,
+      "imdbID": "tt2084949"
+    },
+    {
+      "Title": "Spiderman",
+      "Year": 1990,
+      "imdbID": "tt0100669"
+    },
+    {
+      "Title": "Spiderman",
+      "Year": 2010,
+      "imdbID": "tt1785572"
+    },
+    {
+      "Title": "Fighting, Flying and Driving: The Stunts of Spiderman 3",
+      "Year": 2007,
+      "imdbID": "tt1132238"
+    },
+    {
+      "Title": "Spiderman and Grandma",
+      "Year": 2009,
+      "imdbID": "tt1433184"
+    },
+    {
+      "Title": "The Amazing Spiderman T4 Premiere Special",
+      "Year": 2012,
+      "imdbID": "tt2233044"
+    },
+    {
+      "Title": "Amazing Spiderman Syndrome",
+      "Year": 2012,
+      "imdbID": "tt2586634"
+    },
+    {
+      "Title": "Hollywood's Master Storytellers: Spiderman Live",
+      "Year": 2006,
+      "imdbID": "tt2158533"
+    },
+    {
+      "Title": "Spiderman 5",
+      "Year": 2008,
+      "imdbID": "tt3696826"
+    }
+  ]
+}</code></pre>
+
+<p>&nbsp;</p>
+
+<p>The response for the query <code style="color:black;">https://jsonmock.hackerrank.com/api/movies/search/?Title=spiderman&amp;page=2</code> is:</p>
+
+<pre><code class="language-json">{
+  "page": "2",
+  "per_page": 10,
+  "total": 13,
+  "total_pages": 2,
+  "data": [
+    {
+      "Title": "They Call Me Spiderman",
+      "Year": 2016,
+      "imdbID": "tt5861236"
+    },
+    {
+      "Title": "The Death of Spiderman",
+      "Year": 2015,
+      "imdbID": "tt5921428"
+    },
+    {
+      "Title": "Spiderman in Cannes",
+      "Year": 2016,
+      "imdbID": "tt5978586"
+    }
+  ]
+}</code></pre>
+
+<p>&nbsp;</p>
+
+<p>The values of the <code style="color:black;">Title</code> field for each record in the order received are:</p>
+
+<pre>Italian Spiderman
+Superman, Spiderman or Batman
+Spiderman
+Spiderman
+Fighting, Flying and Driving: The Stunts of Spiderman 3
+Spiderman and Grandma
+The Amazing Spiderman T4 Premiere Special
+Amazing Spiderman Syndrome
+Hollywood's Master Storytellers: Spiderman Live
+Spiderman 5
+They Call Me Spiderman
+The Death of Spiderman
+Spiderman in Cannes
+</pre>
+
+<p>Sort the array&nbsp;in ascending order, and return it as the answer.</p>
+
+<p>&nbsp;</p>
+</details>
+</div>
+</div></div></section></div>

@@ -1,0 +1,141 @@
+<div class="base-question__left-pane"><section><h1 class="question-view__title">1. React: Form Validation</h1></section><section class="question-view__instruction"><div class="candidate-rich-text"><div id="13i8j4n744q-instruction"><style type="text/css">.ps-content-wrapper-v0 div { margin: 0 auto; overflow: auto; } .ps-content-wrapper-v0 div.preheader { display: none; } .ps-content-wrapper-v0 p { white-space: pre-wrap; padding-left: 4px; padding-right: 4px; padding-top: 0px; padding-bottom: 2px; } .ps-content-wrapper-v0 p.section-title { font-weight: bold; padding-bottom: 0px; } .ps-content-wrapper-v0 ol.plain-list, .ps-content-wrapper-v0 ul.plain-list { list-style-type: none; padding: 4px; } .ps-content-wrapper-v0 li { white-space: normal; margin-top: 4px; margin-bottom: 4px; } .ps-content-wrapper-v0 code { color: black; } .ps-content-wrapper-v0 pre { background-color: #f4faff; border: 0; border-radius: 2px; margin: 8px; padding: 10px; } .ps-content-wrapper-v0 pre.scrollable-full-json { overflow-x: scroll; white-space: pre; } .ps-content-wrapper-v0 pre.scrollable-json { height: 300px; overflow-y: scroll; display: inline-grid; white-space: pre-wrap; padding-left: 8px; padding-right: 8px; padding-top: 4px; padding-bottom: 4px; } .ps-content-wrapper-v0 div.equation-parent { width: 400px; text-align: center; border: 1px solid #000; padding: 8px; } .ps-content-wrapper-v0 div.equation-parent.equation { width: 100%; display: inline-block; } .ps-content-wrapper-v0 figure { background-color: transparent; display: table; margin-top: 8px; margin-bottom: 8px; text-align: center; margin-left: auto; margin-right: auto; } .ps-content-wrapper-v0 img { width: auto; max-width: 100%; height: auto; } .ps-content-wrapper-v0 details { background-color: transparent; padding-left: 4px; padding-right: 4px; padding-top: 0px; padding-bottom: 2px; } .ps-content-wrapper-v0 details details { padding-left: 8px; padding-right: 8px; } .ps-content-wrapper-v0 details summary { background-color: #39424e; color: white; font-weight: bold; margin-top: 4px; margin-bottom: 4px; padding: 8px; } .ps-content-wrapper-v0 details details summary code { color: black; font-weight: bold; padding-left: 2px; padding-right: 2px; padding-top: 4px; padding-right: 4px; margin-left: 4px; } .ps-content-wrapper-v0 details div.collapsable-details { margin: 0 auto; padding-left: 4px; padding-right: 4px; padding-top: 0px; padding-bottom: 2px; overflow: auto; } .ps-content-wrapper-v0 details div.collapsable-details pre { margin-left: 4px; margin-right: 4px; margin-top: 4px; margin-bottom: 4px; } .ps-content-wrapper-v0 table.normal { border: 1px solid black; border-collapse: collapse; border-color: darkgray; margin: 0 auto; margin-top: 8px; margin-bottom: 8px; padding: 8px; width: 96%; table-layout: fixed; } .ps-content-wrapper-v0 table.normal tbody { display: block; overflow-x: auto; overflow-y: hidden; } .ps-content-wrapper-v0 table.normal tbody tr:first-child th { font-weight: bold; white-space: normal; } .ps-content-wrapper-v0 table.normal tbody tr th, .ps-content-wrapper-v0 table.normal tbody tr td { font-weight: normal; white-space: nowrap; text-align: center; vertical-align: middle; border: 1px solid black; border-color: darkgray; padding: 8px; } .ps-content-wrapper-v0 table.database-table { border-collapse: collapse; border-color: darkgray; border: 1px solid black; width: auto; margin-left: 4px; margin-top: 8px; margin-bottom: 8px; padding: 8px; } .ps-content-wrapper-v0 table.database-table tbody { overflow-x: auto; overflow-y: hidden; border: none; } .ps-content-wrapper-v0 table.database-table tbody tr th, .ps-content-wrapper-v0 table.database-table tbody tr td { font-weight: normal; white-space: nowrap; text-align: center; vertical-align: middle; border: 1px solid black; border-color: darkgray; padding: 8px; } .ps-content-wrapper-v0 table.database-table tbody tr th { font-weight: bold; border: 1px solid black; } .ps-content-wrapper-v0 table.database-table tbody tr:nth-child(2) td { border: 1px solid black; } .ps-content-wrapper-v0 table.database-table tbody tr:nth-child(n+2) td:first-child { border-left-color: black; } .ps-content-wrapper-v0 table.database-table tbody tr:nth-child(n+2) td:last-child { border-right-color: black; } .ps-content-wrapper-v0 table.database-table tbody tr:last-child td { border-bottom-color: black; } .ps-content-wrapper-v0 table.database-table tbody tr td.description { text-align: left; white-space: pre-wrap; } .ps-content-wrapper-v0 table.normal tbody tr th.description { width: 60%; } .ps-content-wrapper-v0 table.function-params tbody tr:first-child td.headers { border-bottom-width: 2px; } .ps-content-wrapper-v0 table.function-params tbody tr:last-child td { border-top-width: 2px; border-top-color: darkgray; } .ps-content-wrapper-v0 table.function-params tbody tr td.headers { width: 25%; font-weight: bold; text-align: center; border: 1px solid black; border-right-width: 2px; border-color: darkgray; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell { width: 100%; height: 100%; padding: 0px; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table { width: 100%; height: 100%; padding: 0px; margin: 0px; border: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr td.code { white-space: normal; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr th { border-top: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr th:first-child { border-left: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr th:last-child { border-right: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr:last-child td { border-bottom: 0; border-top-width: 1px; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr td:first-child { border-left: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr td:last-child { border-right: 0; } .ps-content-wrapper-v0 table.sudoku { border-collapse: collapse; border-color: darkgray; margin: 0 auto; margin-top: 8px; margin-bottom: 8px; padding: 8px; } .ps-content-wrapper-v0 table.sudoku colgroup, tbody { border: 3px solid black; } .ps-content-wrapper-v0 table.sudoku td { border: 1px solid black; height: 25px; width: 25px; text-align: center; padding: 0; } .ps-content-wrapper-v0 .left { text-align: left; } .ps-content-wrapper-v0 .right { text-align: right; } .ps-content-wrapper-v0 .code { font-family: monospace; white-space: nowrap; } .ps-content-wrapper-v0 .json-object-array ol, .ps-content-wrapper-v0 .json-object-array ol ul { margin-top: 0px; padding-left: 14px; } .json-object-array li { float: left; margin-right: 30px; margin-left: 10px; } .json-object-array pre { padding: 4px; margin-left: 0px; }
+    
+.ps-content-wrapper-v0 div.slider {
+  width: 90%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.ps-content-wrapper-v0 div.slider div.slides > * {
+    margin: 30px 0;
+}
+    
+.ps-content-wrapper-v0 div.slider div.slides {
+  display: flex;
+  overflow-x: auto;
+  
+  border-radius: 5px;
+  scroll-behavior: smooth;
+  
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+}
+    
+.ps-content-wrapper-v0 div.slider div.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.ps-content-wrapper-v0 div.slider div.slides::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+.ps-content-wrapper-v0 div.slider div.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+    
+.ps-content-wrapper-v0 div.slider div.slides > a {
+  flex-shrink: 0;
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+  background: #e0eafc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e0eafc, #cfdef3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e0eafc, #cfdef3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: relative;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+    
+.ps-content-wrapper-v0 div.slider img {
+  object-fit: contain;
+  position: absolute;
+  width: 90%;
+  height: auto;
+}
+    
+.ps-content-wrapper-v0 figcaption {
+  height: 400px;
+position: absolute;
+  text-decoration: none;
+    top: 10px;
+    vertical-align: bottom;
+    color: black;
+}
+</style>
+<div class="ps-content-wrapper-v0">
+<p><span style="font-size: 16px;">Complete a partially completed single page React application that validates the input fields of a form. Model the implementation after the instructions below.</span></p>
+    
+<p>Certain core React functionalities have already been implemented. Complete the React application in order to pass all the unit tests.</p>
+
+<p>&nbsp;</p>
+
+<p class="section-title">Demo</p>
+
+<ul>
+    <li><a href="https://s3.amazonaws.com/istreet-assets/UefvwOC0_kx4osZQrwD2EQ/form-validation.gif" target="_blank">Link to an animated GIF</a></li>
+	<li>Scroll sideways below to explore the screenshots. Clicking each screenshot opens it in a new window.</li>
+</ul>
+
+<div class="slider">
+  <div class="slides">
+      <a id="slide-1" href="https://s3.amazonaws.com/istreet-assets/XnCCv7sqzP0Erfsz_Q9dUg/Screen%20Shot%202018-09-26%20at%2012.17.13%20PM.png" target="_blank">      
+        <img src="https://s3.amazonaws.com/istreet-assets/XnCCv7sqzP0Erfsz_Q9dUg/Screen%20Shot%202018-09-26%20at%2012.17.13%20PM.png">
+         <figcaption> Initial state of the application </figcaption>
+      </a>
+      <a id="slide-2" href="https://s3.amazonaws.com/istreet-assets/8chHWvBk-196thv8UtBLAg/Screen%20Shot%202018-09-26%20at%2012.21.06%20PM.png" target="_blank">      
+        <img src="https://s3.amazonaws.com/istreet-assets/8chHWvBk-196thv8UtBLAg/Screen%20Shot%202018-09-26%20at%2012.21.06%20PM.png">
+         <figcaption>Valid Form on clicking the button.</figcaption>
+      </a>
+      <a id="slide-3" href="https://s3.amazonaws.com/istreet-assets/1mtExjxmHrizYX-WlmaUuQ/Screen%20Shot%202018-09-26%20at%2012.22.16%20PM.png" target="_blank">      
+        <img src="https://s3.amazonaws.com/istreet-assets/1mtExjxmHrizYX-WlmaUuQ/Screen%20Shot%202018-09-26%20at%2012.22.16%20PM.png">
+         <figcaption>Invalid form on clicking the button (invalid blog url).</figcaption>
+      </a>
+  </div>
+</div>
+
+<p>&nbsp;</p>
+
+<p class="section-title">Specifications</p>
+<ul>
+	<li>
+        The form contains four fields:
+        <ul>
+            <li>
+<em>Name</em>: A string that consists of between 3 and 30 (inclusive) upper and lower case English alphabetic letters only.</li>
+            <li>
+<em>E-mail</em>: A standard email address. For example, user@domain.extension is valid but user@domain is not.</li>
+            <li>
+<em>Phone</em>: A 10-digit number that does not begin with 0 or 1.</li>
+            <li>
+<em>Blog URL</em>: A standard URL that covers cases such as <em>http://domain.extension</em>, <em>http://www.domain.extension</em>, <em>www.domain.extension</em>, and <em>domain.extension</em>.</li>
+        </ul>
+    </li>
+	<li>The entire form should get validated on button click based on the criterions mentioned above and display a message accordingly.</li>
+    <li>If all input fields contain valid values, the message <code>Form is Complete!</code> should be displayed.</li>
+    <li>If one or more fields contains an invalid value, the message <code>Form is Incomplete!</code> should be displayed.</li>
+    <li>Component flow diagram of the application is as follows:</li>
+</ul>
+
+
+<p style="text-align:center;"><img height="187" src="https://s3.amazonaws.com/istreet-assets/UxDmGm5yxAEEqmzuYmTkFA/form.png" width="500"></p>
+
+<p>&nbsp;</p>
+
+<details open="open"><summary class="section-title">Framework Specific Instructions</summary>
+
+<div class="collapsable-details">
+<ul>
+	<li>The project uses React 16 by default. Changing the React version may interfere with tests and is strictly discouraged. You may refer to the React 16 docs <a href="http://reactjs.org/docs/hello-world.html">here</a>.</li>
+	<li>The project uses <a href="http://github.com/facebook/create-react-app">create-react-app</a>&nbsp;and <a href="http://www.npmjs.com/package/react-scripts">react-scripts</a>&nbsp;to automate serving and testing of the application.</li>
+	<li>The project uses <a href="http://airbnb.io/enzyme/">enzyme</a> as a testing framework. Please refrain from changing the test framework or the tests themselves.</li>
+	<li>The project uses Foundation CSS as a design framework. API docs are available <a href="https://foundation.zurb.com/sites/docs/v/5.5.3/css.html">here</a>&nbsp;and can be used as a reference.</li>
+</ul>
+</div>
+</details>
+</div>
+</div></div></section></div>
