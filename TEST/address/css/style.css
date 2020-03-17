@@ -1,0 +1,63 @@
+/*
+	Project Name: Google Street View
+	Section Name: Google Street View page
+	Author: Socialgrower Team
+	Developer Code: XXXXX
+	Created On: June 14, 2018
+	Updated On: June 14, 2018
+	Version: 1.0
+	Description: stylesheet developed for google street view generator source. 
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/1.png) no-repeat 0px 0px;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    background-attachment: fixed;
+    background-position: center;
+	color:#FFF;
+	font-size:11px;
+}
+
+
+.form-control{
+	height:50px;
+	border:1px solid #CCC;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#pano {
+	margin-top:20px;
+	float: left;
+	padding-left:0px;
+	margin-left:0px;
+	height: 400px;
+	width: 100%;
+	overflow: inherit;
+}
+
+.map{
+	border:1px solid #CCC;
+	min-height:430px;
+	margin: 20px;
+}
+
+.mapLabel{
+	margin:20px;
+}
