@@ -1,0 +1,1714 @@
+2020/03/18 19:28:32 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "register". in D:\projects\Test\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(270): CController->missingAction('register')
+#1 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#2 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#3 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Test/yii-crud/index.php?r=site/register
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/index
+---
+2020/03/18 19:29:27 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "register". in D:\projects\Test\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(270): CController->missingAction('register')
+#1 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#2 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#3 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Test/yii-crud/index.php?r=site/register
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/index
+---
+2020/03/18 19:30:39 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "register". in D:\projects\Test\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(270): CController->missingAction('register')
+#1 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#2 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#3 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Test/yii-crud/index.php?r=site/register
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/index
+---
+2020/03/18 19:34:42 [error] [exception.CHttpException.404] CHttpException: The requested view "register" was not found. in D:\projects\Test\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('register')
+#1 D:\projects\Test\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 D:\projects\Test\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Test/yii-crud/index.php?r=site/page&view=register
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/index
+---
+2020/03/19 08:15:25 [error] [php] Undefined variable: model (D:\projects\Test\yii-crud\protected\views\site\pages\create.php:14)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 D:\projects\Test\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 D:\projects\Test\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 D:\projects\Test\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/page&view=create
+in D:\projects\Test\yii-crud\protected\views\site\pages\create.php (14)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 08:22:38 [error] [php] Undefined variable: model (D:\projects\Test\yii-crud\protected\views\site\pages\create.php:14)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 D:\projects\Test\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 D:\projects\Test\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 D:\projects\Test\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/page&view=create
+in D:\projects\Test\yii-crud\protected\views\site\pages\create.php (14)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 08:23:37 [error] [exception.CException] CException: Property "CEmailValidator.0" is not defined. in D:\projects\Test\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\projects\Test\yii\framework\validators\CValidator.php(177): CComponent->__set('0', 'required')
+#1 D:\projects\Test\yii\framework\base\CModel.php(287): CValidator::createValidator(0, Object(UserForm), Array, Array)
+#2 D:\projects\Test\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 D:\projects\Test\yii\framework\web\helpers\CHtml.php(2467): CModel->getValidators('username')
+#4 D:\projects\Test\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', Object(UserForm), 'username', Array)
+#5 D:\projects\Test\yii-crud\protected\views\site\pages\create.php(18): CHtml::activeTextField(Object(UserForm), 'username')
+#6 D:\projects\Test\yii\framework\web\CBaseController.php(126): require('D:\\projects\\Tes...')
+#7 D:\projects\Test\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\projects\\Tes...', Array, true)
+#8 D:\projects\Test\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\projects\\Tes...', Array, true)
+#9 D:\projects\Test\yii\framework\web\CController.php(785): CController->renderPartial('/site/pages/cre...', Array, true)
+#10 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(123): CController->render('/site/pages/cre...', Array)
+#11 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#12 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#17 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/page&view=manage
+---
+2020/03/19 08:24:18 [error] [exception.CException] CException: Property "UserForm.username" is not defined. in D:\projects\Test\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\helpers\CHtml.php(2760): CComponent->__get('username')
+#1 D:\projects\Test\yii\framework\web\helpers\CHtml.php(2483): CHtml::resolveValue(Object(UserForm), 'username')
+#2 D:\projects\Test\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', Object(UserForm), 'username', Array)
+#3 D:\projects\Test\yii-crud\protected\views\site\pages\create.php(18): CHtml::activeTextField(Object(UserForm), 'username')
+#4 D:\projects\Test\yii\framework\web\CBaseController.php(126): require('D:\\projects\\Tes...')
+#5 D:\projects\Test\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\projects\\Tes...', Array, true)
+#6 D:\projects\Test\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\projects\\Tes...', Array, true)
+#7 D:\projects\Test\yii\framework\web\CController.php(785): CController->renderPartial('/site/pages/cre...', Array, true)
+#8 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(123): CController->render('/site/pages/cre...', Array)
+#9 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#10 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#14 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#15 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/page&view=manage
+---
+2020/03/19 09:16:17 [error] [php] Undefined variable: form (D:\projects\Test\yii-crud\protected\views\site\pages\create.php:47)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(123): SiteController->render()
+#3 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#4 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+in D:\projects\Test\yii-crud\protected\views\site\pages\create.php (47)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (123)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 09:18:33 [error] [exception.Error] Error: Call to undefined method CHtml::fileInput() in D:\projects\Test\yii-crud\protected\views\site\pages\create.php:47
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CBaseController.php(126): require()
+#1 D:\projects\Test\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\projects\\Tes...', Array, true)
+#2 D:\projects\Test\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\projects\\Tes...', Array, true)
+#3 D:\projects\Test\yii\framework\web\CController.php(785): CController->renderPartial('/site/pages/cre...', Array, true)
+#4 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(123): CController->render('/site/pages/cre...', Array)
+#5 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#6 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#10 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#11 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/page&view=manage
+---
+2020/03/19 09:19:59 [warning] [application] Failed to set unsafe attribute "profile" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (115)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 09:19:59 [warning] [application] Failed to set unsafe attribute "marks" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (115)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 09:20:25 [warning] [application] Failed to set unsafe attribute "profile" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (115)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 09:20:25 [warning] [application] Failed to set unsafe attribute "marks" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (115)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 09:20:55 [warning] [application] Failed to set unsafe attribute "profile" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (115)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 09:20:55 [warning] [application] Failed to set unsafe attribute "marks" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (115)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 09:21:02 [warning] [application] Failed to set unsafe attribute "profile" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (115)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 09:21:02 [warning] [application] Failed to set unsafe attribute "marks" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (115)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 09:25:02 [warning] [application] Failed to set unsafe attribute "profile" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (115)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 09:25:02 [warning] [application] Failed to set unsafe attribute "marks" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (115)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 09:25:02 [error] [php] Trying to get property 'firstName' of non-object (D:\projects\Test\yii-crud\protected\controllers\SiteController.php:119)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (119)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 09:25:14 [warning] [application] Failed to set unsafe attribute "profile" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (115)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 09:25:14 [warning] [application] Failed to set unsafe attribute "marks" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (115)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 09:25:14 [error] [php] Trying to get property 'lastName' of non-object (D:\projects\Test\yii-crud\protected\controllers\SiteController.php:120)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (120)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 09:25:31 [warning] [application] Failed to set unsafe attribute "profile" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (115)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 09:25:31 [warning] [application] Failed to set unsafe attribute "marks" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (115)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 09:25:31 [error] [exception.CException] CException: UserForm and its behaviors do not have a method or closure named "save". in D:\projects\Test\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(124): CComponent->__call('save', Array)
+#1 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#2 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#7 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 09:52:50 [warning] [application] Failed to set unsafe attribute "profile" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (115)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 09:52:50 [warning] [application] Failed to set unsafe attribute "marks" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (115)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 10:31:42 [error] [exception.Error] Error: Using $this when not in object context in D:\projects\Test\yii\framework\db\ar\CActiveRecord.php:1462
+Stack trace:
+#0 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(32): CActiveRecord::find()
+#1 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#7 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Test/yii-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 10:32:40 [error] [exception.Error] Error: Using $this when not in object context in D:\projects\Test\yii\framework\db\ar\CActiveRecord.php:1476
+Stack trace:
+#0 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(32): CActiveRecord::findAll()
+#1 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#7 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Test/yii-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 10:33:28 [error] [exception.Error] Error: Using $this when not in object context in D:\projects\Test\yii\framework\db\ar\CActiveRecord.php:1462
+Stack trace:
+#0 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(32): CActiveRecord::find()
+#1 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#7 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Test/yii-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 10:34:01 [error] [exception.Error] Error: Using $this when not in object context in D:\projects\Test\yii\framework\db\ar\CActiveRecord.php:1462
+Stack trace:
+#0 D:\projects\Test\yii-crud\protected\models\UserForm.php(24): CActiveRecord::find()
+#1 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(32): UserForm::find()
+#2 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Test/yii-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 10:36:11 [error] [exception.Error] Error: Call to undefined method UserForm::model() in D:\projects\Test\yii-crud\protected\controllers\SiteController.php:32
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#1 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#5 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/Test/yii-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 10:36:36 [error] [exception.Error] Error: Using $this when not in object context in D:\projects\Test\yii\framework\db\ar\CActiveRecord.php:1462
+Stack trace:
+#0 D:\projects\Test\yii-crud\protected\models\UserForm.php(24): CActiveRecord::find()
+#1 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(33): UserForm->find()
+#2 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Test/yii-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 10:36:49 [error] [exception.Error] Error: Using $this when not in object context in D:\projects\Test\yii\framework\db\ar\CActiveRecord.php:1462
+Stack trace:
+#0 D:\projects\Test\yii-crud\protected\models\UserForm.php(24): CActiveRecord::find()
+#1 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(33): UserForm::find()
+#2 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Test/yii-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 10:37:30 [error] [exception.Error] Error: Call to undefined function Details() in D:\projects\Test\yii-crud\protected\controllers\SiteController.php:32
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#1 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#5 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/Test/yii-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 10:37:38 [error] [exception.Error] Error: Call to undefined function Details() in D:\projects\Test\yii-crud\protected\controllers\SiteController.php:32
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#1 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#5 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/Test/yii-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 10:37:48 [error] [exception.Error] Error: Using $this when not in object context in D:\projects\Test\yii\framework\db\ar\CActiveRecord.php:1462
+Stack trace:
+#0 D:\projects\Test\yii-crud\protected\models\UserForm.php(24): CActiveRecord::find()
+#1 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(32): UserForm::find()
+#2 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Test/yii-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 10:38:41 [error] [exception.Error] Error: Using $this when not in object context in D:\projects\Test\yii\framework\db\ar\CActiveRecord.php:1462
+Stack trace:
+#0 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(32): CActiveRecord::find()
+#1 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#7 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Test/yii-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 10:39:24 [error] [php] Undefined variable: users (D:\projects\Test\yii-crud\protected\views\site\index.php:22)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(33): SiteController->render()
+#3 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php
+in D:\projects\Test\yii-crud\protected\views\site\index.php (22)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (33)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 10:40:58 [error] [exception.ParseError] ParseError: syntax error, unexpected end of file in D:\projects\Test\yii-crud\protected\views\site\index.php:37
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\projects\\Tes...', Array, true)
+#1 D:\projects\Test\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\projects\\Tes...', Array, true)
+#2 D:\projects\Test\yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#3 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(33): CController->render('index', Array)
+#4 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Test/yii-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 10:42:24 [error] [php] sizeof(): Parameter must be an array or an object that implements Countable (D:\projects\Test\yii-crud\protected\views\site\index.php:24)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#2 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#3 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(33): SiteController->render()
+#4 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#7 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php
+in D:\projects\Test\yii-crud\protected\views\site\index.php (24)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (33)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 10:42:30 [error] [php] count(): Parameter must be an array or an object that implements Countable (D:\projects\Test\yii-crud\protected\views\site\index.php:24)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(33): SiteController->render()
+#3 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php
+in D:\projects\Test\yii-crud\protected\views\site\index.php (24)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (33)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 10:43:11 [error] [exception.CException] CException: Details and its behaviors do not have a method or closure named "all". in D:\projects\Test\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\projects\Test\yii\framework\db\ar\CActiveRecord.php(229): CComponent->__call('all', Array)
+#1 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(32): CActiveRecord->__call('all', Array)
+#2 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Test/yii-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 10:44:57 [error] [exception.CException] CException: Property "Details.0" is not defined. in D:\projects\Test\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\projects\Test\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 D:\projects\Test\yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 D:\projects\Test\yii-crud\protected\views\site\index.php(24): CModel->offsetGet(0)
+#3 D:\projects\Test\yii\framework\web\CBaseController.php(126): require('D:\\projects\\Tes...')
+#4 D:\projects\Test\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\projects\\Tes...', Array, true)
+#5 D:\projects\Test\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\projects\\Tes...', Array, true)
+#6 D:\projects\Test\yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#7 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(33): CController->render('index', Array)
+#8 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#14 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Test/yii-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 10:46:22 [error] [exception.CException] CException: Details and its behaviors do not have a method or closure named "all". in D:\projects\Test\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\projects\Test\yii\framework\db\ar\CActiveRecord.php(229): CComponent->__call('all', Array)
+#1 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(32): CActiveRecord->__call('all', Array)
+#2 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Test/yii-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 10:48:44 [error] [php] Trying to get property 'firstName' of non-object (D:\projects\Test\yii-crud\protected\views\site\index.php:30)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(33): SiteController->render()
+#3 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php
+in D:\projects\Test\yii-crud\protected\views\site\index.php (30)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (33)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 10:51:36 [error] [php] Undefined variable: users (D:\projects\Test\yii-crud\protected\views\site\pages\manage.php:28)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 D:\projects\Test\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 D:\projects\Test\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 D:\projects\Test\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/page&view=manage
+in D:\projects\Test\yii-crud\protected\views\site\pages\manage.php (28)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 10:51:54 [warning] [application] Failed to set unsafe attribute "profile" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (98)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 10:51:54 [warning] [application] Failed to set unsafe attribute "marks" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (98)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 10:52:46 [error] [php] include(float.php): failed to open stream: No such file or directory (D:\projects\Test\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\projects\Test\yii\framework\YiiBase.php(310): class_exists()
+#2 D:\projects\Test\yii\framework\validators\CValidator.php(174): import()
+#3 D:\projects\Test\yii\framework\base\CModel.php(287): createValidator()
+#4 D:\projects\Test\yii\framework\base\CModel.php(260): UserForm->createValidators()
+#5 D:\projects\Test\yii\framework\web\helpers\CHtml.php(2467): UserForm->getValidators()
+#6 D:\projects\Test\yii\framework\web\helpers\CHtml.php(1540): activeInputField()
+#7 D:\projects\Test\yii-crud\protected\views\site\pages\create.php(18): activeTextField()
+#8 D:\projects\Test\yii\framework\web\CBaseController.php(126): require()
+#9 D:\projects\Test\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#10 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#11 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#12 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(112): SiteController->render()
+#13 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#14 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#16 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#17 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#18 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+in D:\projects\Test\yii-crud\protected\views\site\pages\create.php (18)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (112)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 10:52:57 [error] [php] include(number.php): failed to open stream: No such file or directory (D:\projects\Test\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\projects\Test\yii\framework\YiiBase.php(310): class_exists()
+#2 D:\projects\Test\yii\framework\validators\CValidator.php(174): import()
+#3 D:\projects\Test\yii\framework\base\CModel.php(287): createValidator()
+#4 D:\projects\Test\yii\framework\base\CModel.php(260): UserForm->createValidators()
+#5 D:\projects\Test\yii\framework\web\helpers\CHtml.php(2467): UserForm->getValidators()
+#6 D:\projects\Test\yii\framework\web\helpers\CHtml.php(1540): activeInputField()
+#7 D:\projects\Test\yii-crud\protected\views\site\pages\create.php(18): activeTextField()
+#8 D:\projects\Test\yii\framework\web\CBaseController.php(126): require()
+#9 D:\projects\Test\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#10 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#11 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#12 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(112): SiteController->render()
+#13 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#14 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#16 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#17 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#18 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+in D:\projects\Test\yii-crud\protected\views\site\pages\create.php (18)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (112)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 10:53:32 [error] [php] include(float.php): failed to open stream: No such file or directory (D:\projects\Test\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\projects\Test\yii\framework\YiiBase.php(310): class_exists()
+#2 D:\projects\Test\yii\framework\validators\CValidator.php(174): import()
+#3 D:\projects\Test\yii\framework\base\CModel.php(287): createValidator()
+#4 D:\projects\Test\yii\framework\base\CModel.php(260): UserForm->createValidators()
+#5 D:\projects\Test\yii\framework\web\helpers\CHtml.php(2467): UserForm->getValidators()
+#6 D:\projects\Test\yii\framework\web\helpers\CHtml.php(1540): activeInputField()
+#7 D:\projects\Test\yii-crud\protected\views\site\pages\create.php(18): activeTextField()
+#8 D:\projects\Test\yii\framework\web\CBaseController.php(126): require()
+#9 D:\projects\Test\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#10 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#11 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#12 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(112): SiteController->render()
+#13 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#14 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#16 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#17 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#18 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+in D:\projects\Test\yii-crud\protected\views\site\pages\create.php (18)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (112)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 10:54:24 [error] [exception.CException] CException: UserForm has an invalid validation rule. The rule must specify attributes to be validated and the validator name. in D:\projects\Test\yii\framework\base\CModel.php:289
+Stack trace:
+#0 D:\projects\Test\yii\framework\base\CModel.php(260): CModel->createValidators()
+#1 D:\projects\Test\yii\framework\web\helpers\CHtml.php(2467): CModel->getValidators('firstName')
+#2 D:\projects\Test\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', Object(UserForm), 'firstName', Array)
+#3 D:\projects\Test\yii-crud\protected\views\site\pages\create.php(18): CHtml::activeTextField(Object(UserForm), 'firstName')
+#4 D:\projects\Test\yii\framework\web\CBaseController.php(126): require('D:\\projects\\Tes...')
+#5 D:\projects\Test\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\projects\\Tes...', Array, true)
+#6 D:\projects\Test\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\projects\\Tes...', Array, true)
+#7 D:\projects\Test\yii\framework\web\CController.php(785): CController->renderPartial('/site/pages/cre...', Array, true)
+#8 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(112): CController->render('/site/pages/cre...', Array)
+#9 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#10 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#14 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#15 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/manage
+---
+2020/03/19 10:54:46 [warning] [application] Failed to set unsafe attribute "profile" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (98)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 10:54:53 [warning] [application] Failed to set unsafe attribute "profile" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (98)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 10:57:13 [error] [exception.CException] CException: Property "CFileValidator.skipOnEmpty" is not defined. in D:\projects\Test\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\projects\Test\yii\framework\validators\CValidator.php(177): CComponent->__set('skipOnEmpty', false)
+#1 D:\projects\Test\yii\framework\base\CModel.php(287): CValidator::createValidator('skipOnEmpty', Object(UserForm), Array, Array)
+#2 D:\projects\Test\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 D:\projects\Test\yii\framework\web\helpers\CHtml.php(2467): CModel->getValidators('firstName')
+#4 D:\projects\Test\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', Object(UserForm), 'firstName', Array)
+#5 D:\projects\Test\yii-crud\protected\views\site\pages\create.php(18): CHtml::activeTextField(Object(UserForm), 'firstName')
+#6 D:\projects\Test\yii\framework\web\CBaseController.php(126): require('D:\\projects\\Tes...')
+#7 D:\projects\Test\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\projects\\Tes...', Array, true)
+#8 D:\projects\Test\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\projects\\Tes...', Array, true)
+#9 D:\projects\Test\yii\framework\web\CController.php(785): CController->renderPartial('/site/pages/cre...', Array, true)
+#10 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(112): CController->render('/site/pages/cre...', Array)
+#11 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#12 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#17 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/manage
+---
+2020/03/19 10:58:00 [error] [exception.CException] CException: Property "CFileValidator.extensions" is not defined. in D:\projects\Test\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\projects\Test\yii\framework\validators\CValidator.php(177): CComponent->__set('extensions', 'png, jpg')
+#1 D:\projects\Test\yii\framework\base\CModel.php(287): CValidator::createValidator('extensions', Object(UserForm), Array, Array)
+#2 D:\projects\Test\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 D:\projects\Test\yii\framework\web\helpers\CHtml.php(2467): CModel->getValidators('firstName')
+#4 D:\projects\Test\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', Object(UserForm), 'firstName', Array)
+#5 D:\projects\Test\yii-crud\protected\views\site\pages\create.php(18): CHtml::activeTextField(Object(UserForm), 'firstName')
+#6 D:\projects\Test\yii\framework\web\CBaseController.php(126): require('D:\\projects\\Tes...')
+#7 D:\projects\Test\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\projects\\Tes...', Array, true)
+#8 D:\projects\Test\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\projects\\Tes...', Array, true)
+#9 D:\projects\Test\yii\framework\web\CController.php(785): CController->renderPartial('/site/pages/cre...', Array, true)
+#10 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(112): CController->render('/site/pages/cre...', Array)
+#11 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#12 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#17 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/manage
+---
+2020/03/19 11:00:17 [warning] [application] Failed to set unsafe attribute "profile" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (98)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 11:00:17 [error] [exception.Error] Error: Call to a member function saveAs() on null in D:\projects\Test\yii-crud\protected\controllers\SiteController.php:102
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#1 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#5 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#6 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 11:01:08 [warning] [application] Failed to set unsafe attribute "profile" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (98)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 11:01:21 [warning] [application] Failed to set unsafe attribute "profile" of "UserForm".
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (98)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 11:03:30 [error] [php] Illegal offset type in isset or empty (D:\projects\Test\yii\framework\web\CUploadedFile.php:86)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#2 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (101)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 11:04:11 [error] [php] Illegal offset type in isset or empty (D:\projects\Test\yii\framework\web\CUploadedFile.php:86)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#2 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (101)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 11:04:25 [error] [php] include(UploadedFile.php): failed to open stream: No such file or directory (D:\projects\Test\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(101): spl_autoload_call()
+#1 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#2 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (101)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 11:04:36 [error] [php] Illegal offset type in isset or empty (D:\projects\Test\yii\framework\web\CUploadedFile.php:86)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#2 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (101)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 11:08:53 [error] [php] include(UploadedFile.php): failed to open stream: No such file or directory (D:\projects\Test\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(101): spl_autoload_call()
+#1 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#2 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (101)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 11:14:33 [error] [exception.CException] CException: Property "CWebApplication.Image" is not defined. in D:\projects\Test\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\projects\Test\yii\framework\base\CModule.php(105): CComponent->__get('Image')
+#1 D:\projects\Test\yii-crud\protected\views\site\index.php(32): CModule->__get('Image')
+#2 D:\projects\Test\yii\framework\web\CBaseController.php(126): require('D:\\projects\\Tes...')
+#3 D:\projects\Test\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\projects\\Tes...', Array, true)
+#4 D:\projects\Test\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\projects\\Tes...', Array, true)
+#5 D:\projects\Test\yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#6 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(33): CController->render('index', Array)
+#7 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Test/yii-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 11:16:05 [error] [exception.ParseError] ParseError: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in D:\projects\Test\yii-crud\protected\views\site\index.php:32
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\projects\\Tes...', Array, true)
+#1 D:\projects\Test\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\projects\\Tes...', Array, true)
+#2 D:\projects\Test\yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#3 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(33): CController->render('index', Array)
+#4 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Test/yii-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 11:16:13 [error] [php] include(Image.php): failed to open stream: No such file or directory (D:\projects\Test\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 D:\projects\Test\yii-crud\protected\views\site\index.php(32): spl_autoload_call()
+#1 D:\projects\Test\yii\framework\web\CBaseController.php(126): require()
+#2 D:\projects\Test\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#4 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#5 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(33): SiteController->render()
+#6 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#9 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#11 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php
+in D:\projects\Test\yii-crud\protected\views\site\index.php (32)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (33)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 11:16:52 [error] [exception.CException] CException: The asset "" to be published does not exist. in D:\projects\Test\yii\framework\web\CAssetManager.php:257
+Stack trace:
+#0 D:\projects\Test\yii-crud\protected\views\site\index.php(32): CAssetManager->publish(NULL)
+#1 D:\projects\Test\yii\framework\web\CBaseController.php(126): require('D:\\projects\\Tes...')
+#2 D:\projects\Test\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\projects\\Tes...', Array, true)
+#3 D:\projects\Test\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\projects\\Tes...', Array, true)
+#4 D:\projects\Test\yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#5 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(33): CController->render('index', Array)
+#6 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Test/yii-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 11:17:20 [error] [exception.CException] CException: The asset "" to be published does not exist. in D:\projects\Test\yii\framework\web\CAssetManager.php:257
+Stack trace:
+#0 D:\projects\Test\yii-crud\protected\views\site\index.php(33): CAssetManager->publish(NULL)
+#1 D:\projects\Test\yii\framework\web\CBaseController.php(126): require('D:\\projects\\Tes...')
+#2 D:\projects\Test\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\projects\\Tes...', Array, true)
+#3 D:\projects\Test\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\projects\\Tes...', Array, true)
+#4 D:\projects\Test\yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#5 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(33): CController->render('index', Array)
+#6 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Test/yii-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/create
+---
+2020/03/19 11:24:00 [error] [php] move_uploaded_file(protected/upload/images/button_loader.gif): failed to open stream: No such file or directory (D:\projects\Test\yii\framework\web\CUploadedFile.php:201)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#1 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#3 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#5 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/create
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (102)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 11:24:33 [error] [php] getimagesize(D:/projects/Test/yii-crud\images/): failed to open stream: No such file or directory (D:\projects\Test\yii-crud\protected\controllers\SiteController.php:128)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CBaseController.php(126): require()
+#1 D:\projects\Test\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(33): SiteController->render()
+#5 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#8 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#10 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (128)
+in D:\projects\Test\yii-crud\protected\views\site\index.php (32)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (33)
+2020/03/19 11:24:43 [error] [php] getimagesize(D:/projects/Test/yii-crud\images/): failed to open stream: No such file or directory (D:\projects\Test\yii-crud\protected\controllers\SiteController.php:128)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CBaseController.php(126): require()
+#1 D:\projects\Test\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(33): SiteController->render()
+#5 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#8 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#10 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (128)
+in D:\projects\Test\yii-crud\protected\views\site\index.php (32)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (33)
+2020/03/19 11:24:51 [error] [php] getimagesize(D:/projects/Test/yii-crud\images/): failed to open stream: No such file or directory (D:\projects\Test\yii-crud\protected\controllers\SiteController.php:128)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CBaseController.php(126): require()
+#1 D:\projects\Test\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(33): SiteController->render()
+#5 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#8 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#10 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (128)
+in D:\projects\Test\yii-crud\protected\views\site\index.php (32)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (33)
+2020/03/19 11:26:16 [error] [php] getimagesize(D:/projects/Test/yii-crud\images/): failed to open stream: No such file or directory (D:\projects\Test\yii-crud\protected\controllers\SiteController.php:126)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CBaseController.php(126): require()
+#1 D:\projects\Test\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(33): SiteController->render()
+#5 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#8 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#10 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (126)
+in D:\projects\Test\yii-crud\protected\views\site\index.php (32)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (33)
+2020/03/19 11:27:34 [error] [php] readfile(D:/projects/Test/yii-crud\images/): failed to open stream: No such file or directory (D:\projects\Test\yii-crud\protected\controllers\SiteController.php:128)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CBaseController.php(126): require()
+#1 D:\projects\Test\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(33): SiteController->render()
+#5 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#8 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#10 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (128)
+in D:\projects\Test\yii-crud\protected\views\site\index.php (32)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (33)
+2020/03/19 11:27:49 [error] [php] readfile(D:/projects/Test/yii-crud\images/): failed to open stream: No such file or directory (D:\projects\Test\yii-crud\protected\controllers\SiteController.php:124)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CBaseController.php(126): require()
+#1 D:\projects\Test\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(33): SiteController->render()
+#5 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#8 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#10 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (124)
+in D:\projects\Test\yii-crud\protected\views\site\index.php (32)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (33)
+2020/03/19 11:37:55 [error] [php] Undefined variable: user (D:\projects\Test\yii-crud\protected\controllers\SiteController.php:125)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#3 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#5 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/delete&id=1
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (125)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 11:38:10 [error] [exception.Error] Error: Call to a member function delete() on null in D:\projects\Test\yii-crud\protected\controllers\SiteController.php:125
+Stack trace:
+#0 [internal function]: SiteController->actionDelete('1')
+#1 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#2 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#3 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#7 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/delete')
+#8 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Test/yii-crud/index.php?r=site/delete&id=1
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/manage
+---
+2020/03/19 11:53:32 [error] [php] Undefined variable: model (D:\projects\Test\yii-crud\protected\views\site\pages\edit.php:14)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(122): SiteController->render()
+#3 unknown(0): SiteController->actionEdit()
+#4 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#8 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#10 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/edit&id=7
+in D:\projects\Test\yii-crud\protected\views\site\pages\edit.php (14)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (122)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 11:54:04 [error] [php] Undefined variable: model (D:\projects\Test\yii-crud\protected\views\site\pages\edit.php:14)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(122): SiteController->render()
+#3 unknown(0): SiteController->actionEdit()
+#4 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#8 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#10 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/edit&id=7
+in D:\projects\Test\yii-crud\protected\views\site\pages\edit.php (14)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (122)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 11:55:20 [error] [php] Undefined variable: model (D:\projects\Test\yii-crud\protected\views\site\pages\edit.php:14)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(122): SiteController->render()
+#3 unknown(0): SiteController->actionEdit()
+#4 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#8 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#10 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/edit&id=7
+in D:\projects\Test\yii-crud\protected\views\site\pages\edit.php (14)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (122)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 11:55:43 [error] [php] Illegal string offset 'name' (D:\projects\Test\yii\framework\web\helpers\CHtml.php:2689)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CBaseController.php(126): require()
+#1 D:\projects\Test\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(122): SiteController->render()
+#5 unknown(0): SiteController->actionEdit()
+#6 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#7 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#8 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#10 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#11 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#12 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/edit&id=7
+in D:\projects\Test\yii-crud\protected\views\site\pages\edit.php (18)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (122)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 11:56:05 [error] [php] Illegal string offset 'name' (D:\projects\Test\yii\framework\web\helpers\CHtml.php:2689)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CBaseController.php(126): require()
+#1 D:\projects\Test\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(123): SiteController->render()
+#5 unknown(0): SiteController->actionEdit()
+#6 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#7 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#8 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#10 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#11 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#12 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/edit&id=7
+in D:\projects\Test\yii-crud\protected\views\site\pages\edit.php (18)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (123)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 11:56:52 [error] [php] Illegal string offset 'name' (D:\projects\Test\yii\framework\web\helpers\CHtml.php:2689)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CBaseController.php(126): require()
+#1 D:\projects\Test\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(123): SiteController->render()
+#5 unknown(0): SiteController->actionEdit()
+#6 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#7 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#8 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#10 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#11 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#12 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/edit&id=7
+in D:\projects\Test\yii-crud\protected\views\site\pages\edit.php (18)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (123)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 11:57:26 [error] [php] Illegal string offset 'name' (D:\projects\Test\yii\framework\web\helpers\CHtml.php:2689)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CBaseController.php(126): require()
+#1 D:\projects\Test\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(123): SiteController->render()
+#5 unknown(0): SiteController->actionEdit()
+#6 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#7 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#8 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#10 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#11 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#12 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/edit&id=7
+in D:\projects\Test\yii-crud\protected\views\site\pages\edit.php (18)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (123)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 11:57:52 [error] [php] Illegal string offset 'name' (D:\projects\Test\yii\framework\web\helpers\CHtml.php:2689)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CBaseController.php(126): require()
+#1 D:\projects\Test\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#3 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#4 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(123): SiteController->render()
+#5 unknown(0): SiteController->actionEdit()
+#6 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#7 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#8 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#10 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#11 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#12 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/edit&id=7
+in D:\projects\Test\yii-crud\protected\views\site\pages\edit.php (18)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (123)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 11:58:08 [error] [php] Illegal offset type in isset or empty (D:\projects\Test\yii\framework\validators\CValidator.php:235)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\helpers\CHtml.php(1540): activeInputField()
+#1 D:\projects\Test\yii-crud\protected\views\site\pages\edit.php(18): activeTextField()
+#2 D:\projects\Test\yii\framework\web\CBaseController.php(126): require()
+#3 D:\projects\Test\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#4 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#5 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#6 D:\projects\Test\yii-crud\protected\controllers\SiteController.php(123): SiteController->render()
+#7 unknown(0): SiteController->actionEdit()
+#8 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#9 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#12 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#13 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#14 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/edit&id=7
+in D:\projects\Test\yii-crud\protected\views\site\pages\edit.php (18)
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (123)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 12:03:33 [error] [exception.Error] Error: Call to a member function saveAs() on null in D:\projects\Test\yii-crud\protected\controllers\SiteController.php:127
+Stack trace:
+#0 [internal function]: SiteController->actionEdit('7')
+#1 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#2 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#3 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#7 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/edit')
+#8 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Test/yii-crud/index.php?r=site/edit&id=7
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/edit&id=7
+---
+2020/03/19 12:03:41 [error] [php] Undefined variable: user (D:\projects\Test\yii-crud\protected\controllers\SiteController.php:140)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#3 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#5 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/edit&id=7
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (140)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 12:04:39 [error] [exception.Error] Error: Call to a member function saveAs() on null in D:\projects\Test\yii-crud\protected\controllers\SiteController.php:128
+Stack trace:
+#0 [internal function]: SiteController->actionEdit('8')
+#1 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#2 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#3 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#7 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/edit')
+#8 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\projects\Test\yii-crud\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Test/yii-crud/index.php?r=site/edit&id=8
+HTTP_REFERER=http://mytest.com/Test/yii-crud/index.php?r=site/edit&id=8
+---
+2020/03/19 12:04:57 [error] [php] Trying to get property 'name' of non-object (D:\projects\Test\yii-crud\protected\controllers\SiteController.php:137)
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#3 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#5 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\projects\Test\yii-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/yii-crud/index.php?r=site/edit&id=8
+in D:\projects\Test\yii-crud\protected\controllers\SiteController.php (137)
+in D:\projects\Test\yii-crud\index.php (13)
+2020/03/19 12:13:34 [error] [exception.CException] CException: Property "SiteController.pageCaption" is not defined. in D:\projects\Test\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\projects\Test\test-crud\themes\bootstrap\views\layouts\column1.php(4): CComponent->__get('pageCaption')
+#1 D:\projects\Test\yii\framework\web\CBaseController.php(126): require('D:\\projects\\Tes...')
+#2 D:\projects\Test\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\projects\\Tes...', Array, true)
+#3 D:\projects\Test\yii\framework\web\CController.php(787): CBaseController->renderFile('D:\\projects\\Tes...', Array, true)
+#4 D:\projects\Test\test-crud\protected\controllers\SiteController.php(41): CController->render('pages/manage', Array)
+#5 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionManage()
+#6 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('manage')
+#10 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/manage')
+#11 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/Test/test-crud/index.php?r=site/manage
+HTTP_REFERER=http://mytest.com/Test/test-crud/index.php?r=site/index
+---
+2020/03/19 12:14:18 [error] [php] include(BController.php): failed to open stream: No such file or directory (D:\projects\Test\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 D:\projects\Test\test-crud\protected\components\Controller.php(25): spl_autoload_call()
+#1 D:\projects\Test\yii\framework\web\CWebApplication.php(281): SiteController->init()
+#2 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#3 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\projects\Test\test-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/test-crud/index.php?r=site/manage
+in D:\projects\Test\test-crud\protected\components\Controller.php (25)
+in D:\projects\Test\test-crud\index.php (13)
+2020/03/19 12:14:46 [error] [php] include(BController.php): failed to open stream: No such file or directory (D:\projects\Test\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 D:\projects\Test\test-crud\protected\components\Controller.php(25): spl_autoload_call()
+#1 D:\projects\Test\yii\framework\web\CWebApplication.php(281): SiteController->init()
+#2 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#3 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\projects\Test\test-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/test-crud/index.php?r=site/manage
+in D:\projects\Test\test-crud\protected\components\Controller.php (25)
+in D:\projects\Test\test-crud\index.php (13)
+2020/03/19 12:15:23 [error] [php] include(BController.php): failed to open stream: No such file or directory (D:\projects\Test\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 D:\projects\Test\test-crud\protected\components\Controller.php(25): spl_autoload_call()
+#1 D:\projects\Test\yii\framework\web\CWebApplication.php(281): SiteController->init()
+#2 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#3 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\projects\Test\test-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/test-crud/index.php?r=site/manage
+in D:\projects\Test\test-crud\protected\components\Controller.php (25)
+in D:\projects\Test\test-crud\index.php (13)
+2020/03/19 12:16:19 [error] [php] include(BController.php): failed to open stream: No such file or directory (D:\projects\Test\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 D:\projects\Test\test-crud\protected\components\Controller.php(70): spl_autoload_call()
+#1 D:\projects\Test\yii\framework\web\CWebApplication.php(281): SiteController->init()
+#2 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#3 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\projects\Test\test-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/test-crud/index.php?r=site/manage
+in D:\projects\Test\test-crud\protected\components\Controller.php (70)
+in D:\projects\Test\test-crud\index.php (13)
+2020/03/19 12:20:27 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in D:\projects\Test\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Test/test-crud/
+---
+2020/03/19 12:20:34 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in D:\projects\Test\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Test/test-crud/
+---
+2020/03/19 12:21:20 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in D:\projects\Test\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Test/test-crud/
+---
+2020/03/19 12:22:06 [error] [exception.ParseError] ParseError: syntax error, unexpected '<', expecting end of file in D:\projects\Test\test-crud\protected\views\site\pages\manage.php:5
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\projects\\Tes...', Array, true)
+#1 D:\projects\Test\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\projects\\Tes...', Array, true)
+#2 D:\projects\Test\yii\framework\web\CController.php(785): CController->renderPartial('pages/manage', Array, true)
+#3 D:\projects\Test\test-crud\protected\controllers\SiteController.php(49): CController->render('pages/manage', Array)
+#4 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionManage()
+#5 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('manage')
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/manage')
+#10 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Test/test-crud/index.php?r=site/manage
+HTTP_REFERER=http://mytest.com/Test/test-crud/index.php?r=site/view
+---
+2020/03/19 12:24:27 [error] [php] include(Button.php): failed to open stream: No such file or directory (D:\projects\Test\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 D:\projects\Test\test-crud\protected\views\site\pages\manage.php(3): spl_autoload_call()
+#1 D:\projects\Test\yii\framework\web\CBaseController.php(126): require()
+#2 D:\projects\Test\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 D:\projects\Test\yii\framework\web\CController.php(872): SiteController->renderFile()
+#4 D:\projects\Test\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#5 D:\projects\Test\test-crud\protected\controllers\SiteController.php(49): SiteController->render()
+#6 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionManage()
+#7 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 D:\projects\Test\yii\framework\web\CController.php(286): SiteController->runAction()
+#9 D:\projects\Test\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 D:\projects\Test\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#11 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 D:\projects\Test\test-crud\index.php(13): CWebApplication->run()
+REQUEST_URI=/Test/test-crud/index.php?r=site/manage
+in D:\projects\Test\test-crud\protected\views\site\pages\manage.php (3)
+in D:\projects\Test\test-crud\protected\controllers\SiteController.php (49)
+in D:\projects\Test\test-crud\index.php (13)
+2020/03/19 12:29:30 [error] [exception.Error] Error: Call to a member function where() on array in D:\projects\Test\test-crud\protected\controllers\SiteController.php:32
+Stack trace:
+#0 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#1 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('')
+#5 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/Test/test-crud/index.php
+HTTP_REFERER=http://mytest.com/Test/test-crud/index.php?r=site/create
+---
+2020/03/19 12:31:00 [error] [exception.CException] CException: Property "CWebApplication.model" is not defined. in D:\projects\Test\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\projects\Test\yii\framework\base\CModule.php(105): CComponent->__get('model')
+#1 D:\projects\Test\test-crud\protected\controllers\SiteController.php(157): CModule->__get('model')
+#2 [internal function]: SiteController->actionDelete('8')
+#3 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#4 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#5 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/delete')
+#10 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Test/test-crud/index.php?r=site/delete&id=8
+HTTP_REFERER=http://mytest.com/Test/test-crud/index.php?r=site/manage
+---
+2020/03/19 12:31:26 [error] [exception.Error] Error: Call to a member function delete() on null in D:\projects\Test\test-crud\protected\controllers\SiteController.php:156
+Stack trace:
+#0 [internal function]: SiteController->actionDelete('8')
+#1 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#2 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#3 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#7 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/delete')
+#8 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Test/test-crud/index.php?r=site/delete&id=8
+HTTP_REFERER=http://mytest.com/Test/test-crud/index.php?r=site/manage
+---
+2020/03/19 12:32:37 [error] [exception.CException] CException: Details and its behaviors do not have a method or closure named "where". in D:\projects\Test\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\projects\Test\yii\framework\db\ar\CActiveRecord.php(229): CComponent->__call('where', Array)
+#1 D:\projects\Test\test-crud\protected\controllers\SiteController.php(155): CActiveRecord->__call('where', Array)
+#2 [internal function]: SiteController->actionDelete('8')
+#3 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#4 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#5 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/delete')
+#10 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Test/test-crud/index.php?r=site/delete&id=8
+HTTP_REFERER=http://mytest.com/Test/test-crud/index.php?r=site/manage
+---
+2020/03/19 12:32:59 [error] [exception.Error] Error: Call to a member function delete() on null in D:\projects\Test\test-crud\protected\controllers\SiteController.php:156
+Stack trace:
+#0 [internal function]: SiteController->actionDelete('8')
+#1 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#2 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#3 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#7 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/delete')
+#8 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Test/test-crud/index.php?r=site/delete&id=8
+HTTP_REFERER=http://mytest.com/Test/test-crud/index.php?r=site/manage
+---
+2020/03/19 12:33:30 [error] [exception.CException] CException: Property "CWebApplication.model" is not defined. in D:\projects\Test\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\projects\Test\yii\framework\base\CModule.php(105): CComponent->__get('model')
+#1 D:\projects\Test\test-crud\protected\controllers\SiteController.php(157): CModule->__get('model')
+#2 [internal function]: SiteController->actionDelete('7')
+#3 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#4 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#5 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/delete')
+#10 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Test/test-crud/index.php?r=site/delete&id=7
+HTTP_REFERER=http://mytest.com/Test/test-crud/index.php?r=site/manage
+---
+2020/03/19 12:33:47 [error] [exception.CException] CException: Property "CWebApplication.model" is not defined. in D:\projects\Test\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\projects\Test\yii\framework\base\CModule.php(105): CComponent->__get('model')
+#1 D:\projects\Test\test-crud\protected\controllers\SiteController.php(157): CModule->__get('model')
+#2 [internal function]: SiteController->actionDelete('9')
+#3 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#4 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#5 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/delete')
+#10 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Test/test-crud/index.php?r=site/delete&id=9
+HTTP_REFERER=http://mytest.com/Test/test-crud/index.php?r=site/manage
+---
+2020/03/19 12:34:51 [error] [exception.Error] Error: Call to a member function delete() on null in D:\projects\Test\test-crud\protected\controllers\SiteController.php:156
+Stack trace:
+#0 [internal function]: SiteController->actionDelete('9')
+#1 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#2 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#3 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#7 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/delete')
+#8 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Test/test-crud/index.php?r=site/delete&id=9
+HTTP_REFERER=http://mytest.com/Test/test-crud/index.php?r=site/manage
+---
+2020/03/19 12:34:54 [error] [exception.CException] CException: Property "CWebApplication.model" is not defined. in D:\projects\Test\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\projects\Test\yii\framework\base\CModule.php(105): CComponent->__get('model')
+#1 D:\projects\Test\test-crud\protected\controllers\SiteController.php(157): CModule->__get('model')
+#2 [internal function]: SiteController->actionDelete('6')
+#3 D:\projects\Test\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#4 D:\projects\Test\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#5 D:\projects\Test\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\projects\Test\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\projects\Test\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\projects\Test\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\projects\Test\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/delete')
+#10 D:\projects\Test\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/Test/test-crud/index.php?r=site/delete&id=6
+HTTP_REFERER=http://mytest.com/Test/test-crud/index.php?r=site/manage
+---
+2020/03/19 12:40:31 [error] [exception.Error] Error: Call to a member function saveAs() on null in D:\projects\Test\test-crud\protected\controllers\SiteController.php:110
+Stack trace:
+#0 D:\projects\Test\test-crud\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#1 D:\projects\Test\test-crud\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\projects\Test\test-crud\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 D:\projects\Test\test-crud\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 D:\projects\Test\test-crud\framework\web\CWebApplication.php(282): CController->run('create')
+#5 D:\projects\Test\test-crud\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#6 D:\projects\Test\test-crud\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/Test/test-crud/index.php?r=site/create
+HTTP_REFERER=http://mytest.com/Test/test-crud/index.php?r=site/create
+---
+2020/03/19 12:42:27 [error] [exception.Error] Error: Call to a member function saveAs() on null in D:\projects\Test\test-crud\protected\controllers\SiteController.php:110
+Stack trace:
+#0 D:\projects\Test\test-crud\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#1 D:\projects\Test\test-crud\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\projects\Test\test-crud\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 D:\projects\Test\test-crud\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 D:\projects\Test\test-crud\framework\web\CWebApplication.php(282): CController->run('create')
+#5 D:\projects\Test\test-crud\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#6 D:\projects\Test\test-crud\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/Test/test-crud/index.php?r=site/create
+HTTP_REFERER=http://mytest.com/Test/test-crud/index.php?r=site/create
+---
+2020/03/19 12:42:48 [error] [exception.Error] Error: Call to a member function saveAs() on null in D:\projects\Test\test-crud\protected\controllers\SiteController.php:110
+Stack trace:
+#0 D:\projects\Test\test-crud\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#1 D:\projects\Test\test-crud\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\projects\Test\test-crud\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 D:\projects\Test\test-crud\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 D:\projects\Test\test-crud\framework\web\CWebApplication.php(282): CController->run('create')
+#5 D:\projects\Test\test-crud\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#6 D:\projects\Test\test-crud\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/Test/test-crud/index.php?r=site/create
+HTTP_REFERER=http://mytest.com/Test/test-crud/index.php?r=site/create
+---
+2020/03/19 12:42:53 [error] [exception.Error] Error: Call to a member function saveAs() on null in D:\projects\Test\test-crud\protected\controllers\SiteController.php:110
+Stack trace:
+#0 D:\projects\Test\test-crud\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#1 D:\projects\Test\test-crud\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\projects\Test\test-crud\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 D:\projects\Test\test-crud\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 D:\projects\Test\test-crud\framework\web\CWebApplication.php(282): CController->run('create')
+#5 D:\projects\Test\test-crud\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#6 D:\projects\Test\test-crud\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/Test/test-crud/index.php?r=site/create
+HTTP_REFERER=http://mytest.com/Test/test-crud/index.php?r=site/create
+---
+2020/03/19 12:43:00 [error] [exception.Error] Error: Call to a member function saveAs() on null in D:\projects\Test\test-crud\protected\controllers\SiteController.php:110
+Stack trace:
+#0 D:\projects\Test\test-crud\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#1 D:\projects\Test\test-crud\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\projects\Test\test-crud\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 D:\projects\Test\test-crud\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 D:\projects\Test\test-crud\framework\web\CWebApplication.php(282): CController->run('create')
+#5 D:\projects\Test\test-crud\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#6 D:\projects\Test\test-crud\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/Test/test-crud/index.php?r=site/create
+HTTP_REFERER=http://mytest.com/Test/test-crud/index.php?r=site/create
+---
+2020/03/19 12:43:04 [error] [exception.Error] Error: Call to a member function saveAs() on null in D:\projects\Test\test-crud\protected\controllers\SiteController.php:110
+Stack trace:
+#0 D:\projects\Test\test-crud\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#1 D:\projects\Test\test-crud\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\projects\Test\test-crud\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 D:\projects\Test\test-crud\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 D:\projects\Test\test-crud\framework\web\CWebApplication.php(282): CController->run('create')
+#5 D:\projects\Test\test-crud\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#6 D:\projects\Test\test-crud\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/Test/test-crud/index.php?r=site/create
+HTTP_REFERER=http://mytest.com/Test/test-crud/index.php?r=site/create
+---
+2020/03/19 12:43:09 [error] [exception.Error] Error: Call to a member function saveAs() on null in D:\projects\Test\test-crud\protected\controllers\SiteController.php:110
+Stack trace:
+#0 D:\projects\Test\test-crud\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#1 D:\projects\Test\test-crud\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\projects\Test\test-crud\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 D:\projects\Test\test-crud\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 D:\projects\Test\test-crud\framework\web\CWebApplication.php(282): CController->run('create')
+#5 D:\projects\Test\test-crud\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#6 D:\projects\Test\test-crud\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/Test/test-crud/index.php?r=site/create
+HTTP_REFERER=http://mytest.com/Test/test-crud/index.php?r=site/create
+---
+2020/03/19 12:44:04 [error] [exception.Error] Error: Call to a member function saveAs() on null in D:\projects\Test\test-crud\protected\controllers\SiteController.php:110
+Stack trace:
+#0 D:\projects\Test\test-crud\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#1 D:\projects\Test\test-crud\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\projects\Test\test-crud\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 D:\projects\Test\test-crud\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 D:\projects\Test\test-crud\framework\web\CWebApplication.php(282): CController->run('create')
+#5 D:\projects\Test\test-crud\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#6 D:\projects\Test\test-crud\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\projects\Test\test-crud\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/Test/test-crud/index.php?r=site/create
+HTTP_REFERER=http://mytest.com/Test/test-crud/index.php?r=site/create
+---
